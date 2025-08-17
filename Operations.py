@@ -1,6 +1,5 @@
-import json, os
+import json, os, inspect
 import Utils as utils
-import random as rand
 
 LOCAL_LOW_APPDATA_PATH = os.getenv('LOCALAPPDATA')
 LOCAL_LOW_APPDATA_PATH += "Low"
@@ -9,18 +8,37 @@ LOCAL_LOW_APPDATA_PATH += "Low"
 # The path to where Nuclear Option stores missions.
 NUCLEAR_OPTION_MISSION_FOLDER_PATH = f"{LOCAL_LOW_APPDATA_PATH}\\Shockfront\\NuclearOption\\Missions"
 
+# The name of the mission you want to edit
+MISSION_NAME = "ATFOP-Archangel"
+
 # You can include any combination of ONLY the following, NOTHING ELSE: 'vehicles' 'ships' 'airbases' 'buildings' 'aircraft'
-CATEGORIES_OF_OBJECTS_INCLUDED_IN_PRESETS = ('vehicles', 'ships', 'airbases', 'buildings')
+CATEGORIES_OF_OBJECTS_INCLUDED_IN_PRESETS = ('vehicles', 'ships', 'airbases', 'buildings', 'aircraft') # you really shouldnt need to touch this
+
+# The prefix you must use for the objects you want to use to interact with these scripts.
+ACTIVATION_PHRASE = "AtomicBuild"
 
 ### END USER CONFIG VARIABLES--------------------------------------------------------------------------
+
+class operation:
+    def __init__(self):
+        pass
+
+
+OPERATIONS = {
+    'paste' : lambda mission_name, preset_name, paste_center_coords: paste_preset(mission_name, preset_name, paste_center_coords), 
+    'removeAllOutside': lambda mission_name, zone_radius_meters, center: remove_all_outside_zone(open_mission_json(mission_name), zone_radius_meters, center)}
+
 print(f"Missons stored at: {NUCLEAR_OPTION_MISSION_FOLDER_PATH}")
 print(f"Presets stored in the Presets directory attached to this project.")
 
-DEFAULT_ATOMIC_BUILDER_INFO = {'origin':(0,0,0), 'NextPasteCode':0}
-### TEMP TESTING CONFIGS
-mission_path = "Presets\\archangel\\archangel.json"
-airbase_center_name = "QDC Archangel"
 
+
+DEFAULT_ATOMIC_BUILDER_INFO = {'origin':(0,0,0), 'NextPasteCode':0}
+
+def open_mission_json(mission_name : str):
+    with open(f'{NUCLEAR_OPTION_MISSION_FOLDER_PATH}\\{mission_name}\\{mission_name}.json') as file:
+        data = json.load(file)
+    return data
 
 def get_objs_in_zone(obj_list, key : str, center : tuple[float, float, float], zone_radius_meters : float):
     objs = list()
@@ -70,7 +88,7 @@ def assign_paste_codes(data):
     # we keep track of what paste codes we've assigned so far to this file, and we just count up from there.
     if not 'AtomicBuilderInfo' in data:
         data['AtomicBuilderInfo'] = DEFAULT_ATOMIC_BUILDER_INFO
-    suffix = f"_ATOMIC_BUILD_PASTE_{data['AtomicBuilderInfo']['NextPasteCode']}"
+    suffix = f"_ATOM_PASTE_{data['AtomicBuilderInfo']['NextPasteCode']}"
     data['AtomicBuilderInfo']['NextPasteCode'] +=1
 
     for cat in CATEGORIES_OF_OBJECTS_INCLUDED_IN_PRESETS:
@@ -114,13 +132,12 @@ def paste_preset(mission_name : str, preset_name : str, paste_center_coords : tu
         preset[cat] = objs
     
 
-    with open(f'{NUCLEAR_OPTION_MISSION_FOLDER_PATH}\\{mission_name}\\{mission_name}.json') as file:
-        data = json.load(file)
+    data = open_mission_json(mission_name)
     if not 'AtomicBuilderInfo' in data: # if we dont have our info in the mission file, then we chuck the default in.
         data['AtomicBuilderInfo'] = DEFAULT_ATOMIC_BUILDER_INFO
 
-    data['AtomicBuilderInfo']['NextPasteCode'] = max(data['AtomicBuilderInfo']['NextPasteCode'], preset['AtomicBuilderInfo']['NextPasteCode'])
-    preset['AtomicBuilderInfo']['NextPasteCode'] += data['AtomicBuilderInfo']['NextPasteCode']
+    data['AtomicBuilderInfo']['NextPasteCode'] = max(data['AtomicBuilderInfo']['NextPasteCode'], preset['AtomicBuilderInfo']['NextPasteCode'])+1
+    preset['AtomicBuilderInfo']['NextPasteCode'] = data['AtomicBuilderInfo']['NextPasteCode']
     
     preset = assign_paste_codes(preset)
     data['AtomicBuilderInfo']['NextPasteCode'] +=1
@@ -140,6 +157,8 @@ def paste_preset(mission_name : str, preset_name : str, paste_center_coords : tu
 
     return data
     
+
+
 
 def create_preset(mission_name : str, preset_radius : float, center : str | tuple[float,float,float] | None = None, final_preset_name : str | None = None):
     with open(f"{NUCLEAR_OPTION_MISSION_FOLDER_PATH}\\{mission_name}\\{mission_name}.json") as file:
@@ -171,6 +190,7 @@ def create_preset(mission_name : str, preset_radius : float, center : str | tupl
                     total_y += coords[1]
                     total_z += coords[2]
                     obj_num += 1
+            # coords are stored out to 12 decimals in the json files, so we round them here.
             origin = (round(total_x / obj_num, 12), round(total_y / obj_num, 12), round(total_z / obj_num, 12))
     
     preset_data = remove_all_outside_zone(data, preset_radius, origin)
@@ -187,10 +207,57 @@ def create_preset(mission_name : str, preset_radius : float, center : str | tupl
     json.dump(preset_data, open(f"{preset_dir}\\{final_preset_name}.json", 'w', encoding='UTF-8'), indent=4)
     json.dump({"FileName":final_preset_name}, open(f"{preset_dir}\\meta.json", 'w', encoding='UTF-8'), indent=4)
 
-pasted = paste_preset("ATFOP-Archangel", "archangel", (1000,5000,0))
-json.dump(pasted, open(f'{NUCLEAR_OPTION_MISSION_FOLDER_PATH}\\ATFOP-Archangel\\ATFOP-Archangel.json', 'w', encoding='UTF-8'), indent=4)
-pasted = paste_preset("ATFOP-Archangel", "archangel", (2000,7000,0))
-json.dump(pasted, open('ATFOP-Archangel.json', 'w', encoding='UTF-8'), indent=4)
+def create_backup(mission_name : str):
+    json.dump(open_mission_json(mission_name), open(f'{mission_name}_Backup.json', 'w', encoding='UTF-8'), indent=4)
+
+def dump_mission(data, mission_name):
+    json.dump(data, open(f'{NUCLEAR_OPTION_MISSION_FOLDER_PATH}\\{mission_name}\\{mission_name}.json', 'w', encoding='UTF-8'), indent=4)
+
+def parse_requests(mission_name : str):
+    create_backup(mission_name)
+    data = open_mission_json(mission_name)
+    for cat in CATEGORIES_OF_OBJECTS_INCLUDED_IN_PRESETS:
+        for obj in data[cat]:
+            if not 'UniqueName' in obj:
+                continue
+            name = obj['UniqueName']
+            if not name.startswith(ACTIVATION_PHRASE):
+                continue
+            split : list[str] = name.split('_')
+            if len(split) < 3:
+                print(f"Malformed request. | Request cannot contain sufficient information. | Unique name: {name}")
+                continue
+            split.pop(0) # get rid of activation phrase
+            requested_op = split.pop(0)
+            args = split
+            if not requested_op in OPERATIONS:
+                continue
+            if len(args) != len(inspect.signature(OPERATIONS[requested_op]).parameters)-1:
+                # if theres a single additional argument, its likely that the paste is either grouped in with other pastes, which is assumed, or its malformed.
+                if len(args) == len(inspect.signature(OPERATIONS[requested_op]).parameters):
+                    args.pop()
+                else:
+                    print(f"Malformed request. | Request does not match number of parameters required for requested operation. | Unique name: {name}")
+            # this allows the user to put "CURR|LOC" in for the location, and have it swapped out for the objects location
+            for i in range(len(args)):
+                arg = args[i]
+                if type(arg) is str:
+                    if arg == "CURR|LOC":
+                        args[i] = utils.json_get_coords(obj)
+            print(f"Performing operation. Operation: {requested_op} | Args: {args}")
+            done = OPERATIONS[requested_op](mission_name, *args)
+            done[cat].remove(obj)
+            dump_mission(done, mission_name)
+            print("Looping back through again.")
+            return parse_requests(mission_name)
 
 
-# create_preset("ATFOP-Archangel", 30000, "QDC Archangel", "archangel")
+
+create_backup(MISSION_NAME)
+parse_requests(MISSION_NAME)
+print("Done :)")
+# pasted = paste_preset(MISSION_NAME, "archangel", (1000,5000,0))
+# json.dump(pasted, open(f'{NUCLEAR_OPTION_MISSION_FOLDER_PATH}\\{MISSION_NAME}\\{MISSION_NAME}.json', 'w', encoding='UTF-8'), indent=4)
+# pasted = paste_preset(MISSION_NAME, "archangel", (2000,7000,0))
+# json.dump(pasted, open(f'{NUCLEAR_OPTION_MISSION_FOLDER_PATH}\\{MISSION_NAME}\\{MISSION_NAME}.json', 'w', encoding='UTF-8'), indent=4)
+

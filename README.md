@@ -1,1 +1,1 @@
-# Not Yet Written.
+# Setup instructions, coming soon. (in like an hour i swear)
