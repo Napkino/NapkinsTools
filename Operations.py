@@ -15,7 +15,7 @@ MISSION_NAME = "ATFOP-Archangel"
 CATEGORIES_OF_OBJECTS_INCLUDED_IN_PRESETS = ('vehicles', 'ships', 'airbases', 'buildings', 'aircraft') # you really shouldnt need to touch this
 
 # The prefix you must use for the objects you want to use to interact with these scripts.
-ACTIVATION_PHRASE = "AtomicBuild"
+ACTIVATION_KEYWORD = "AtomicBuild"
 
 ### END USER CONFIG VARIABLES--------------------------------------------------------------------------
 
@@ -221,7 +221,7 @@ def parse_requests(mission_name : str):
             if not 'UniqueName' in obj:
                 continue
             name = obj['UniqueName']
-            if not name.startswith(ACTIVATION_PHRASE):
+            if not name.startswith(ACTIVATION_KEYWORD):
                 continue
             split : list[str] = name.split('_')
             if len(split) < 3:

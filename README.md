@@ -1,1 +1,5 @@
-# Setup instructions, coming soon. (in like an hour i swear)
+# Setup
+1. To run these programs, you must have Python installed. To download Python go to [this website](https://www.python.org/downloads/) and download the latest release. Then, run the installer and restart your computer for its changes to take effect.
+2. Its reccomended you intall git, so that you can pull down updates to the project and script(s) easily. To do so, go to [this link](https://git-scm.com/downloads) and get the relevent version, and run the installer.
+3. If you do not have an IDE, you must download one. I reccomend [Visual Studio Code](https://code.visualstudio.com/) for an op builders needs.
+4. Open Visual Studio Code, if it isnt already open, and hit Ctrl+Shift+P to open the command pallete. Type "clone" and click on the command "Git: Clone". then enter this link "https://github.com/Napkino/AtomicBuilder.git" and hit enter. If that link does not work, you have to get a new link to clone the repository from. Look that up, cause that shouldnt happen and i dont feel like writting about it anymore.
