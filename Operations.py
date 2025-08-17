@@ -15,7 +15,7 @@ MISSION_NAME = "ATFOP-Archangel"
 CATEGORIES_OF_OBJECTS_INCLUDED_IN_PRESETS = ('vehicles', 'ships', 'airbases', 'buildings', 'aircraft') # you really shouldnt need to touch this
 
 # The prefix you must use for the objects you want to use to interact with these scripts.
-ACTIVATION_KEYWORD = "AtomicBuild"
+ACTIVATION_KEYWORD = "atomicBuild"
 
 ### END USER CONFIG VARIABLES--------------------------------------------------------------------------
 
