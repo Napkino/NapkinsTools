@@ -17,6 +17,9 @@ CATEGORIES_OF_OBJECTS_INCLUDED_IN_PRESETS = ('vehicles', 'ships', 'airbases', 'b
 # The prefix you must use for the objects you want to use to interact with these scripts.
 ACTIVATION_KEYWORD = "atomicBuild"
 
+#NOTE: How to use operations.
+# To use operations you need to have an object that has a name 
+
 ### END USER CONFIG VARIABLES--------------------------------------------------------------------------
 
 class operation:
@@ -26,7 +29,7 @@ class operation:
 
 OPERATIONS = {
     'paste' : lambda mission_name, preset_name, paste_center_coords: paste_preset(mission_name, preset_name, paste_center_coords), 
-    'removeAllOutside': lambda mission_name, zone_radius_meters, center: remove_all_outside_zone(open_mission_json(mission_name), zone_radius_meters, center)}
+    'removeAllOutsideZone': lambda mission_name, zone_radius_meters, center: remove_all_outside_zone(open_mission_json(mission_name), zone_radius_meters, center)}
 
 print(f"Missons stored at: {NUCLEAR_OPTION_MISSION_FOLDER_PATH}")
 print(f"Presets stored in the Presets directory attached to this project.")
@@ -248,7 +251,6 @@ def parse_requests(mission_name : str):
             done = OPERATIONS[requested_op](mission_name, *args)
             done[cat].remove(obj)
             dump_mission(done, mission_name)
-            print("Looping back through again.")
             return parse_requests(mission_name)
 
 
