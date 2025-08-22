@@ -17,24 +17,25 @@ CATEGORIES_OF_OBJECTS_INCLUDED_IN_PRESETS = ('vehicles', 'ships', 'airbases', 'b
 # The prefix you must use for the objects you want to use to interact with these scripts.
 ACTIVATION_KEYWORD = "atomicBuild"
 
-#NOTE: How to use operations.
-# To use operations you need to have an object that has a name 
+#NOTE: How to use actions.
+# To use actions you need to have an object that has a name following a specific format.
+# First, the name has to have the "activation keyword" by default its atomicBuild
+# Then, you must put down the seperator, "_" this tells the program what is one thing and what is not.
+# Then, you must provide the operation you want to perform (e.g. paste)
+# After that, you have to provide the paramaters that the specific operation requires. (e.g. paste requires a preset name and paste center coordinates.)
+#NOTE: The paramaters for each operation can be found in the actions dictionary below.
+# Here is an example request. This request will paste an archangel class heli-carrier, onto a units position.
+# atomicBuild_paste_archangel_CURR|LOC
+#  ^keyword    ^op   ^preset name  ^paste center coords
 
 ### END USER CONFIG VARIABLES--------------------------------------------------------------------------
-
-class operation:
-    def __init__(self):
-        pass
-
-
-OPERATIONS = {
+#NOTE: Mission name is a common requirment between all actions, and is NOT required in the name of the unit, as it is a constant you set above.
+ACTIONS = {
     'paste' : lambda mission_name, preset_name, paste_center_coords: paste_preset(mission_name, preset_name, paste_center_coords), 
     'removeAllOutsideZone': lambda mission_name, zone_radius_meters, center: remove_all_outside_zone(open_mission_json(mission_name), zone_radius_meters, center)}
 
 print(f"Missons stored at: {NUCLEAR_OPTION_MISSION_FOLDER_PATH}")
 print(f"Presets stored in the Presets directory attached to this project.")
-
-
 
 DEFAULT_ATOMIC_BUILDER_INFO = {'origin':(0,0,0), 'NextPasteCode':0}
 
@@ -233,11 +234,11 @@ def parse_requests(mission_name : str):
             split.pop(0) # get rid of activation phrase
             requested_op = split.pop(0)
             args = split
-            if not requested_op in OPERATIONS:
+            if not requested_op in ACTIONS:
                 continue
-            if len(args) != len(inspect.signature(OPERATIONS[requested_op]).parameters)-1:
+            if len(args) != len(inspect.signature(ACTIONS[requested_op]).parameters)-1:
                 # if theres a single additional argument, its likely that the paste is either grouped in with other pastes, which is assumed, or its malformed.
-                if len(args) == len(inspect.signature(OPERATIONS[requested_op]).parameters):
+                if len(args) == len(inspect.signature(ACTIONS[requested_op]).parameters):
                     args.pop()
                 else:
                     print(f"Malformed request. | Request does not match number of parameters required for requested operation. | Unique name: {name}")
@@ -248,7 +249,7 @@ def parse_requests(mission_name : str):
                     if arg == "CURR|LOC":
                         args[i] = utils.json_get_coords(obj)
             print(f"Performing operation. Operation: {requested_op} | Args: {args}")
-            done = OPERATIONS[requested_op](mission_name, *args)
+            done = ACTIONS[requested_op](mission_name, *args)
             done[cat].remove(obj)
             dump_mission(done, mission_name)
             return parse_requests(mission_name)
