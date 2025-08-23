@@ -7,7 +7,7 @@ LOCAL_LOW_APPDATA_PATH += "Low"
 # The path to where Nuclear Option stores missions.
 NUCLEAR_OPTION_MISSION_FOLDER_PATH = f"{LOCAL_LOW_APPDATA_PATH}\\Shockfront\\NuclearOption\\Missions"
 # this is the path to the file you need to fix.
-PATH_TO_FILE_TO_DEBUG = 'C:\\Users\\mamil\\AppData\\LocalLow\\Shockfront\\NuclearOption\\Missions\\AtfopNapkinStampin\\AtfopNapkinStampin.json'
+PATH_TO_FILE_TO_DEBUG = f'ATFOP-Archangel_Backup.json'
 
 CATEGORIES_TO_DEBUG = ('vehicles', 'ships', 'airbases', 'buildings', 'aircraft')
 

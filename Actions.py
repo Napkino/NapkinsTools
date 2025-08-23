@@ -1,4 +1,4 @@
-import json, os, inspect
+import json, os, inspect, random
 import Utils as utils
 
 LOCAL_LOW_APPDATA_PATH = os.getenv('LOCALAPPDATA')
@@ -92,8 +92,7 @@ def assign_paste_codes(data):
     # we keep track of what paste codes we've assigned so far to this file, and we just count up from there.
     if not 'AtomicBuilderInfo' in data:
         data['AtomicBuilderInfo'] = DEFAULT_ATOMIC_BUILDER_INFO
-    suffix = f"_ATOM_PASTE_{data['AtomicBuilderInfo']['NextPasteCode']}"
-    data['AtomicBuilderInfo']['NextPasteCode'] +=1
+    suffix = f"_ATOM_PASTE_{random.randint(20, 100000000)}"
 
     for cat in CATEGORIES_OF_OBJECTS_INCLUDED_IN_PRESETS:
         for obj in data[cat]:
@@ -141,7 +140,8 @@ def paste_preset(mission_name : str, preset_name : str, paste_center_coords : tu
         data['AtomicBuilderInfo'] = DEFAULT_ATOMIC_BUILDER_INFO
 
     data['AtomicBuilderInfo']['NextPasteCode'] = max(data['AtomicBuilderInfo']['NextPasteCode'], preset['AtomicBuilderInfo']['NextPasteCode'])+1
-    preset['AtomicBuilderInfo']['NextPasteCode'] = data['AtomicBuilderInfo']['NextPasteCode']
+    preset['AtomicBuilderInfo']['NextPasteCode'] = data['AtomicBuilderInfo']['NextPasteCode']+1
+    data['AtomicBuilderInfo']['NextPasteCode'] +=1
     
     preset = assign_paste_codes(preset)
     data['AtomicBuilderInfo']['NextPasteCode'] +=1
