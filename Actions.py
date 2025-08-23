@@ -20,6 +20,7 @@ def open_mission_json(mission_name : str):
     return data
 
 def create_backup(mission_name : str):
+    os.makedirs('backups', exist_ok=True)
     with open(f'{config.NUCLEAR_OPTION_MISSION_FOLDER_PATH}\\{mission_name}\\{mission_name}.json', 'r', encoding='UTF-8') as file:
         data = file.read()
         file.close()
