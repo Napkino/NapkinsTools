@@ -168,6 +168,8 @@ def group_into_outcome(mission_name : str, group_radius : float, center : tuple[
     outcome = {"UniqueName":f"ATOMIC_BUILDER_OutcomeGroup_{paste_code}", "Type":len(objs_in_group), "TypeName": "SpawnUnit", "Data": outcome_data}
     os.makedirs('Outputs', exist_ok=True)
     json.dump(outcome, open(f'Outputs\\OUTCOME_CENTER_{center}.json','w',encoding='UTF-8'),indent=4) # dumps it for them to copy
+    data['objectives']['Outcomes'].append(outcome)
+    dump_mission(data, mission_name)
 
 def create_blueprint(mission_name : str, blueprint_radius : float, center : str | tuple[float,float,float] | None = None, final_blueprint_name : str | None = None):
     data = open_mission_json(mission_name)
