@@ -1,4 +1,5 @@
 import math
+import Config as config
 
 def dist_3d(first_point : tuple[float, float, float], second_point : tuple[float, float, float]) -> float:
     if first_point[0] == None:
@@ -33,3 +34,42 @@ def add_coordinates(first_point : tuple[float,float,float], second_point : tuple
 
 def sub_coordinates(first_point : tuple[float,float,float], second_point : tuple[float,float,float]) -> tuple[float,float,float]:
     return (first_point[0] - second_point[0], first_point[1] - second_point[1], first_point[2] - second_point[2])
+
+def find_airbase_obj(data, airbase_name):
+    for airbase in data['airbases']:
+        name = airbase['UniqueName']
+        if name == airbase_name:
+            return airbase
+    return None
+
+def get_paste_code(data):
+    paste_code = 0
+    for cat in config.CATEGORIES_OF_OBJECTS_TO_MANIPULATE:
+        for obj in data[cat]:
+            if not 'UniqueName' in obj:
+                continue
+            name : str = obj['UniqueName']
+            split = name.split('_')
+            last = split[len(split)-1]
+            if last.isnumeric():
+                if paste_code < int(last):
+                    paste_code = int(last)
+    for objective in data['objectives']['Objectives']:
+        if not 'UniqueName' in obj:
+            continue
+        name : str = obj['UniqueName']
+        split = name.split('_')
+        last = split[len(split)-1]
+        if not last.isnumeric():
+            continue
+        if paste_code < int(last):
+            paste_code = int(last)
+        for outcome in objective['Outcomes']:
+            split = outcome.split('_')
+            last = split[len(split)-1]
+            if not last.isnumeric():
+                continue
+            if paste_code < int(last):
+                paste_code = int(last)
+    paste_code += 1
+    return paste_code

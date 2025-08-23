@@ -1,57 +1,46 @@
 import json, os, inspect, random
+import Config as config
 import Utils as utils
 
-LOCAL_LOW_APPDATA_PATH = os.getenv('LOCALAPPDATA')
-LOCAL_LOW_APPDATA_PATH += "Low"
-### USER CONFIG VARIABLES-----------------------------------------------------------------------------
-
-# The path to where Nuclear Option stores missions.
-NUCLEAR_OPTION_MISSION_FOLDER_PATH = f"{LOCAL_LOW_APPDATA_PATH}\\Shockfront\\NuclearOption\\Missions"
-
-# The name of the mission you want to edit
-MISSION_NAME = "ATFOP-Archangel"
-
-# You can include any combination of ONLY the following, NOTHING ELSE: 'vehicles' 'ships' 'airbases' 'buildings' 'aircraft'
-CATEGORIES_OF_OBJECTS_INCLUDED_IN_PRESETS = ('vehicles', 'ships', 'airbases', 'buildings', 'aircraft') # you really shouldnt need to touch this
-
-# The prefix you must use for the objects you want to use to interact with these scripts.
-ACTIVATION_KEYWORD = "atomicBuild"
-
-#NOTE: How to use actions.
-# To use actions you need to have an object that has a name following a specific format.
-# First, the name has to have the "activation keyword" by default its atomicBuild
-# Then, you must put down the seperator, "_" this tells the program what is one thing and what is not.
-# Then, you must provide the operation you want to perform (e.g. paste)
-# After that, you have to provide the paramaters that the specific operation requires. (e.g. paste requires a preset name and paste center coordinates.)
-#NOTE: The paramaters for each operation can be found in the actions dictionary below.
-# Here is an example request. This request will paste an archangel class heli-carrier, onto a units position.
-# atomicBuild_paste_archangel_CURR|LOC
-#  ^keyword    ^op   ^preset name  ^paste center coords
-
-### END USER CONFIG VARIABLES--------------------------------------------------------------------------
-#NOTE: Mission name is a common requirment between all actions, and is NOT required in the name of the unit, as it is a constant you set above.
+#NOTE: Mission name is a common requirment between all actions, and is NOT required in the name of the unit, as it is a constant you set in the config.
 ACTIONS = {
-    'paste' : lambda mission_name, preset_name, paste_center_coords: paste_preset(mission_name, preset_name, paste_center_coords), 
+    'paste' : lambda mission_name, blueprint_name, paste_center_coords: paste_blueprint(mission_name, blueprint_name, paste_center_coords),
+    'createBlueprint' : lambda mission_name, blueprint_radius, center, final_blueprint_name: create_blueprint(mission_name, blueprint_radius, center, final_blueprint_name),
+    'groupToOutcome' : lambda mission_name, group_radius, center, unit_to_group: group_into_outcome(mission_name, group_radius, center, unit_to_group),
     'removeAllOutsideZone': lambda mission_name, zone_radius_meters, center: remove_all_outside_zone(open_mission_json(mission_name), zone_radius_meters, center)}
 
-print(f"Missons stored at: {NUCLEAR_OPTION_MISSION_FOLDER_PATH}")
-print(f"Presets stored in the Presets directory attached to this project.")
+print(f"Missons stored at: {config.NUCLEAR_OPTION_MISSION_FOLDER_PATH}")
+print(f"blueprints stored in the blueprints directory attached to this project.")
 
-DEFAULT_ATOMIC_BUILDER_INFO = {'origin':(0,0,0), 'NextPasteCode':0}
+DEFAULT_ATOMIC_BUILDER_INFO = {'origin':(0,0,0)}
 
 def open_mission_json(mission_name : str):
-    with open(f'{NUCLEAR_OPTION_MISSION_FOLDER_PATH}\\{mission_name}\\{mission_name}.json') as file:
+    with open(f'{config.NUCLEAR_OPTION_MISSION_FOLDER_PATH}\\{mission_name}\\{mission_name}.json') as file:
         data = json.load(file)
     return data
 
+def create_backup(mission_name : str):
+    with open(f'{config.NUCLEAR_OPTION_MISSION_FOLDER_PATH}\\{mission_name}\\{mission_name}.json', 'r', encoding='UTF-8') as file:
+        data = file.read()
+        file.close()
+    with open(f'backups\\{mission_name}.json', 'w', encoding='UTF-8') as backup:
+        backup.write(data)
+        backup.close()
+
+def dump_mission(data, mission_name):
+    json.dump(data, open(f'{config.NUCLEAR_OPTION_MISSION_FOLDER_PATH}\\{mission_name}\\{mission_name}.json', 'w', encoding='UTF-8'), indent=4)
+
 def get_objs_in_zone(obj_list, key : str, center : tuple[float, float, float], zone_radius_meters : float):
     objs = list()
+    if type(zone_radius_meters) is not float:
+        zone_radius_meters = float(zone_radius_meters)
     for obj in obj_list[key]:
         if utils.dist_3d(utils.json_get_coords(obj), center) < zone_radius_meters:
             objs.append(obj)
     return objs
 
-def remove_all_outside_zone(data, zone_radius_meters : float, center : str | tuple[float, float, float]):
+def remove_all_outside_zone(mission_name, zone_radius_meters : float, center : str | tuple[float, float, float]):
+    data = open_mission_json(mission_name)
     center_coords = (0, 0, 0)
     match center:
         case tuple():
@@ -61,21 +50,14 @@ def remove_all_outside_zone(data, zone_radius_meters : float, center : str | tup
                 if airbase['DisplayName'] == center:
                     center_coords = utils.json_get_coords(airbase)
                     break
-    for category in CATEGORIES_OF_OBJECTS_INCLUDED_IN_PRESETS:
+    for category in config.CATEGORIES_OF_OBJECTS_TO_MANIPULATE:
         data[category] = get_objs_in_zone(data, category, center_coords, zone_radius_meters)
 
-    return data
+    dump_mission(data, mission_name)
 
-def get_preset_data(preset_name : str):
-    with open(f"Presets\\{preset_name}\\{preset_name}.json") as file:
-        data = json.load(file)
-    preset = {'objectives':data['objectives'], 'AtomicBuilderInfo':data['AtomicBuilderInfo']}
-    for cat in CATEGORIES_OF_OBJECTS_INCLUDED_IN_PRESETS:
-        preset[cat] = data[cat]
-    for key in DEFAULT_ATOMIC_BUILDER_INFO:
-        if not key in preset['AtomicBuilderInfo']:
-            preset['AtomicBuilderInfo'][key] = DEFAULT_ATOMIC_BUILDER_INFO[key]
-    return preset
+def get_blueprint_data(blueprint_name : str):
+    with open(f"Blueprints\\{blueprint_name}.json") as file:
+        return json.load(file)
 
 def change_objects_origin(obj_list, origin : tuple[float, float, float], key : str):
     rel_objs = list()
@@ -88,13 +70,13 @@ def change_objects_origin(obj_list, origin : tuple[float, float, float], key : s
         rel_objs.append(obj)
     return rel_objs
 
-def assign_paste_codes(data):
+def assign_paste_codes(data, paste_code : int | None = None):
     # we keep track of what paste codes we've assigned so far to this file, and we just count up from there.
-    if not 'AtomicBuilderInfo' in data:
-        data['AtomicBuilderInfo'] = DEFAULT_ATOMIC_BUILDER_INFO
-    suffix = f"_ATOM_PASTE_{random.randint(20, 100000000)}"
+    if paste_code is None:
+        paste_code = random.randint(100,10000)
+    suffix = f"_ATOM_PASTE_{paste_code}"
 
-    for cat in CATEGORIES_OF_OBJECTS_INCLUDED_IN_PRESETS:
+    for cat in config.CATEGORIES_OF_OBJECTS_TO_MANIPULATE:
         for obj in data[cat]:
             if 'UniqueName' in obj:
                 obj['UniqueName'] += suffix
@@ -126,47 +108,67 @@ def assign_paste_codes(data):
     return data
 
 
-def paste_preset(mission_name : str, preset_name : str, paste_center_coords : tuple[float, float, float]):
-    data = get_preset_data(preset_name)
+def paste_blueprint(mission_name : str, blueprint_name : str, paste_center_coords : tuple[float, float, float]):
+    data = get_blueprint_data(blueprint_name)
     origin = utils.sub_coordinates(data['AtomicBuilderInfo']['origin'], paste_center_coords)
-    preset = {'objectives' : data['objectives'], 'AtomicBuilderInfo':data['AtomicBuilderInfo']}
-    for cat in CATEGORIES_OF_OBJECTS_INCLUDED_IN_PRESETS:
+    blueprint = {'objectives' : data['objectives'], 'AtomicBuilderInfo':data['AtomicBuilderInfo']}
+    for cat in config.CATEGORIES_OF_OBJECTS_TO_MANIPULATE:
         objs = change_objects_origin(data, origin, cat)
-        preset[cat] = objs
+        blueprint[cat] = objs
     
 
     data = open_mission_json(mission_name)
     if not 'AtomicBuilderInfo' in data: # if we dont have our info in the mission file, then we chuck the default in.
         data['AtomicBuilderInfo'] = DEFAULT_ATOMIC_BUILDER_INFO
-
-    data['AtomicBuilderInfo']['NextPasteCode'] = max(data['AtomicBuilderInfo']['NextPasteCode'], preset['AtomicBuilderInfo']['NextPasteCode'])+1
-    preset['AtomicBuilderInfo']['NextPasteCode'] = data['AtomicBuilderInfo']['NextPasteCode']+1
-    data['AtomicBuilderInfo']['NextPasteCode'] +=1
-    
-    preset = assign_paste_codes(preset)
-    data['AtomicBuilderInfo']['NextPasteCode'] +=1
-    for cat in CATEGORIES_OF_OBJECTS_INCLUDED_IN_PRESETS:
-        for obj in preset[cat]:
+    blueprint = assign_paste_codes(blueprint, utils.get_paste_code(data))
+    for cat in config.CATEGORIES_OF_OBJECTS_TO_MANIPULATE:
+        for obj in blueprint[cat]:
             data[cat].append(obj)
     mission_objectives = data['objectives']['Objectives']
 
-    for preset_objective in preset['objectives']['Objectives']:
-        if preset_objective['UniqueName'] == 'Mission Start':# we combine the start objectives, so that everything the op builder wanted to happen first, happens.
+    for blueprint_objective in blueprint['objectives']['Objectives']:
+        if blueprint_objective['UniqueName'] == 'Mission Start':# we combine the start objectives, so that everything the op builder wanted to happen first, happens.
             for mission_objective in mission_objectives:
                 if mission_objective['UniqueName'] == 'Mission Start':
-                    mission_objective['Outcomes'].extend(preset_objective['Outcomes'])
+                    mission_objective['Outcomes'].extend(blueprint_objective['Outcomes'])
         else:
-            mission_objectives.append(preset_objective)
-    data['objectives']['Outcomes'].extend(preset['objectives']['Outcomes'])
+            mission_objectives.append(blueprint_objective)
+    data['objectives']['Outcomes'].extend(blueprint['objectives']['Outcomes'])
 
     return data
-    
 
+def group_into_outcome(mission_name : str, group_radius : float, center : tuple[float,float,float], units_to_group : str):
+    data = open_mission_json(mission_name)
+    paste_code = utils.get_paste_code(data)
+    # If units_to_group is 'ALL' then the user wants to capture everything in the zone, so we leave that intact.
+    if not units_to_group == 'ALL':
+        units_to_group = units_to_group.split(',')
+        # replace unit filters with actual names, in case any were aliases / nicknames
+        for i in range(len(units_to_group)):
+            if units_to_group[i] in config.UNIT_ALIASES:
+                units_to_group[i] = config.UNIT_ALIASES[units_to_group[i]]
+    objs_in_group = []
+    for cat in config.CATEGORIES_OF_OBJECTS_TO_MANIPULATE:
+        objs_in_cat_zone = get_objs_in_zone(data,cat,center,group_radius)
+        for obj in objs_in_cat_zone:
+            if units_to_group == 'ALL':
+                objs_in_group.append(obj)
+                continue
+            elif 'type' not in obj:
+                continue
+            elif obj['type'] in units_to_group:
+                objs_in_group.append(obj)
+    outcome_data = list()
+    for obj in objs_in_group:
+        if not 'UniqueName' in obj:
+            continue
+        # put units into standard NO outcome data format
+        outcome_data.append({"StringValue": obj['UniqueName'], "FloatValue": 0.0, "VectorValue": {"x": 0.0,"y": 0.0,"z": 0.0}})
+    outcome = {"UniqueName":f"ATOMIC_BUILDER_OutcomeGroup_{paste_code}", "Type":len(objs_in_group), "TypeName": "SpawnUnit", "Data": outcome_data}
+    json.dump(outcome, open(f'Outputs\\OUTCOME_CENTER_{center}.json','w',encoding='UTF-8'),indent=4) # dumps it for them to copy
 
-
-def create_preset(mission_name : str, preset_radius : float, center : str | tuple[float,float,float] | None = None, final_preset_name : str | None = None):
-    with open(f"{NUCLEAR_OPTION_MISSION_FOLDER_PATH}\\{mission_name}\\{mission_name}.json") as file:
-        data = json.load(file)
+def create_blueprint(mission_name : str, blueprint_radius : float, center : str | tuple[float,float,float] | None = None, final_blueprint_name : str | None = None):
+    data = open_mission_json(mission_name)
 
     origin = (0,0,0)
     match center:
@@ -185,7 +187,7 @@ def create_preset(mission_name : str, preset_radius : float, center : str | tupl
             total_x = 0.0
             total_y = 0.0
             total_z = 0.0
-            for category in CATEGORIES_OF_OBJECTS_INCLUDED_IN_PRESETS:
+            for category in config.CATEGORIES_OF_OBJECTS_TO_MANIPULATE:
                 for obj in data[category]:
                     coords = utils.json_get_coords(obj)
                     if coords[0] == None:
@@ -197,70 +199,60 @@ def create_preset(mission_name : str, preset_radius : float, center : str | tupl
             # coords are stored out to 12 decimals in the json files, so we round them here.
             origin = (round(total_x / obj_num, 12), round(total_y / obj_num, 12), round(total_z / obj_num, 12))
     
-    preset_data = remove_all_outside_zone(data, preset_radius, origin)
-    if final_preset_name == None:
-        final_preset_name = mission_name
-    preset_dir = f"Presets\\{final_preset_name}"
-    if not os.path.isdir(preset_dir):
-        os.mkdir(preset_dir)
+    blueprint_data = remove_all_outside_zone(data, blueprint_radius, origin)
+    if final_blueprint_name == None:
+        final_blueprint_name = mission_name
+    blueprint_dir = "Blueprints"
+    if not os.path.isdir(blueprint_dir):
+        os.mkdir(blueprint_dir)
     # storing info we want for down the line.
-    if not 'AtomicBuilderInfo' in preset_data:
-        preset_data['AtomicBuilderInfo'] = DEFAULT_ATOMIC_BUILDER_INFO
-    preset_data['AtomicBuilderInfo']['origin'] = origin
-    # creates a Nuclear Option openable version of the preset in the local presets directory, so that we can store them ourselves.
-    json.dump(preset_data, open(f"{preset_dir}\\{final_preset_name}.json", 'w', encoding='UTF-8'), indent=4)
-    json.dump({"FileName":final_preset_name}, open(f"{preset_dir}\\meta.json", 'w', encoding='UTF-8'), indent=4)
-
-def create_backup(mission_name : str):
-    json.dump(open_mission_json(mission_name), open(f'backups\\{mission_name}_Backup.json', 'w', encoding='UTF-8'), indent=4)
-
-def dump_mission(data, mission_name):
-    json.dump(data, open(f'{NUCLEAR_OPTION_MISSION_FOLDER_PATH}\\{mission_name}\\{mission_name}.json', 'w', encoding='UTF-8'), indent=4)
+    if not 'AtomicBuilderInfo' in blueprint_data:
+        blueprint_data['AtomicBuilderInfo'] = DEFAULT_ATOMIC_BUILDER_INFO
+    blueprint_data['AtomicBuilderInfo']['origin'] = origin
+    # creates a Nuclear Option openable version of the blueprint in the local blueprints directory, so that we can store them ourselves.
+    json.dump(blueprint_data, open(f"{blueprint_dir}\\{final_blueprint_name}.json", 'w', encoding='UTF-8'), indent=4)
 
 def parse_requests(mission_name : str):
-    create_backup(mission_name)
     data = open_mission_json(mission_name)
-    for cat in CATEGORIES_OF_OBJECTS_INCLUDED_IN_PRESETS:
+    for cat in config.CATEGORIES_OF_OBJECTS_TO_MANIPULATE:
         for obj in data[cat]:
             if not 'UniqueName' in obj:
                 continue
             name = obj['UniqueName']
-            if not name.startswith(ACTIVATION_KEYWORD):
+            if not name.startswith(config.ACTIVATION_KEYWORD):
                 continue
             split : list[str] = name.split('_')
             if len(split) < 3:
                 print(f"Malformed request. | Request cannot contain sufficient information. | Unique name: {name}")
                 continue
             split.pop(0) # get rid of activation phrase
-            requested_op = split.pop(0)
+            requested_action = split.pop(0)
             args = split
-            if not requested_op in ACTIONS:
+            if not requested_action in ACTIONS:
                 continue
-            if len(args) != len(inspect.signature(ACTIONS[requested_op]).parameters)-1:
-                # if theres a single additional argument, its likely that the paste is either grouped in with other pastes, which is assumed, or its malformed.
-                if len(args) == len(inspect.signature(ACTIONS[requested_op]).parameters):
+            # The arguments should be one less than the actions required args, as it doesnt include the mission name.
+            if len(args) != len(inspect.signature(ACTIONS[requested_action]).parameters)-1:
+                # if theres a single additional argument, its likely that the action is either grouped in with other similair actions, or its malformed.
+                if len(args) == len(inspect.signature(ACTIONS[requested_action]).parameters):
                     args.pop()
                 else:
-                    print(f"Malformed request. | Request does not match number of parameters required for requested operation. | Unique name: {name}")
+                    print(f"Malformed request. | Request does not match number of parameters required for requested action. | Unique name: {name}")
             # this allows the user to put "CURR|LOC" in for the location, and have it swapped out for the objects location
             for i in range(len(args)):
                 arg = args[i]
                 if type(arg) is str:
-                    if arg == "CURR|LOC":
+                    if arg in config.CURRENT_LOCATION_ALIASES: # using an alias of current location means the user wants to replace this arg with the objects location.
                         args[i] = utils.json_get_coords(obj)
-            print(f"Performing operation. Operation: {requested_op} | Args: {args}")
-            done = ACTIONS[requested_op](mission_name, *args)
-            done[cat].remove(obj)
-            dump_mission(done, mission_name)
+            print(f"Performing action. Action: {requested_action} | Args: {args}")
+            # Remove object we got the request from the file, since it could be in the way of the action.
+            data[cat].remove(obj)
+            dump_mission(data, mission_name)
+            done = ACTIONS[requested_action](mission_name, *args)
+            if done is not None:
+                dump_mission(done, mission_name)
             return parse_requests(mission_name)
 
-
-
-create_backup(MISSION_NAME)
-parse_requests(MISSION_NAME)
+create_backup(config.MISSION_NAME)
+print("Backup Created")
+parse_requests(config.MISSION_NAME)
 print("Done :)")
-# pasted = paste_preset(MISSION_NAME, "archangel", (1000,5000,0))
-# json.dump(pasted, open(f'{NUCLEAR_OPTION_MISSION_FOLDER_PATH}\\{MISSION_NAME}\\{MISSION_NAME}.json', 'w', encoding='UTF-8'), indent=4)
-# pasted = paste_preset(MISSION_NAME, "archangel", (2000,7000,0))
-# json.dump(pasted, open(f'{NUCLEAR_OPTION_MISSION_FOLDER_PATH}\\{MISSION_NAME}\\{MISSION_NAME}.json', 'w', encoding='UTF-8'), indent=4)
-
