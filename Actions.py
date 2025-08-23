@@ -212,7 +212,7 @@ def create_preset(mission_name : str, preset_radius : float, center : str | tupl
     json.dump({"FileName":final_preset_name}, open(f"{preset_dir}\\meta.json", 'w', encoding='UTF-8'), indent=4)
 
 def create_backup(mission_name : str):
-    json.dump(open_mission_json(mission_name), open(f'{mission_name}_Backup.json', 'w', encoding='UTF-8'), indent=4)
+    json.dump(open_mission_json(mission_name), open(f'backups\\{mission_name}_Backup.json', 'w', encoding='UTF-8'), indent=4)
 
 def dump_mission(data, mission_name):
     json.dump(data, open(f'{NUCLEAR_OPTION_MISSION_FOLDER_PATH}\\{mission_name}\\{mission_name}.json', 'w', encoding='UTF-8'), indent=4)
