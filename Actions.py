@@ -51,7 +51,10 @@ def get_objs_in_zone(obj_list, key : str, center : tuple[float, float, float], z
     return objs
 
 def remove_all_outside_zone(mission_name, zone_radius_meters : float, center : str | tuple[float, float, float]):
-    data = open_mission_json(mission_name)
+    if type(mission_name) is str:
+        data = open_mission_json(mission_name)
+    else:
+        data = mission_name
     center_coords = (0, 0, 0)
     match center:
         case tuple():
