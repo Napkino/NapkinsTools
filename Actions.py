@@ -185,6 +185,12 @@ def group_into_outcome(mission_name : str, group_radius : float, center : tuple[
     json.dump(outcome, open(f'Outputs\\OUTCOME_CENTER_{center}.json','w',encoding='UTF-8'),indent=4) # dumps it for them to copy
     data['objectives']['Outcomes'].append(outcome)
     dump_mission(data, mission_name)
+    with open(f'Outputs\\OUTCOME_CENTER_{center}.json','r',encoding='UTF-8') as file:
+        data = file.read()+','
+        file.close()
+    with open(f'Outputs\\OUTCOME_CENTER_{center}.json','w',encoding='UTF-8') as file:
+        file.write(data)
+        file.close()
 
 def create_blueprint(mission_name : str, blueprint_radius : float, center : str | tuple[float,float,float] | None = None, final_blueprint_name : str | None = None):
     data = open_mission_json(mission_name)
