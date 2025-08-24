@@ -6,8 +6,7 @@ import Utils as utils
 ACTIONS = {
     'paste' : lambda mission_name, blueprint_name, paste_center_coords: paste_blueprint(mission_name, blueprint_name, paste_center_coords),
     'createBlueprint' : lambda mission_name, blueprint_radius, center, final_blueprint_name: create_blueprint(mission_name, blueprint_radius, center, final_blueprint_name),
-    'groupToOutcome' : lambda mission_name, group_radius, center, unit_to_group: group_into_outcome(mission_name, group_radius, center, unit_to_group),
-    'removeAllOutsideZone': lambda mission_name, zone_radius_meters, center: remove_all_outside_zone(open_mission_json(mission_name), zone_radius_meters, center)}
+    'groupToOutcome' : lambda mission_name, group_radius, center, unit_to_group: group_into_outcome(mission_name, group_radius, center, unit_to_group)}
 
 print(f"Missons stored at: {config.NUCLEAR_OPTION_MISSION_FOLDER_PATH}")
 print(f"blueprints stored in the blueprints directory attached to this project.")
@@ -70,7 +69,7 @@ def remove_all_outside_zone(mission_name, zone_radius_meters : float, center : s
     except Exception as e:
         print("GETTING OBJECTS IN THE ZONE SCREWED UP")
         exit(0)
-    dump_mission(data, mission_name)
+    return data
 
 def get_blueprint_data(blueprint_name : str):
     with open(f"Blueprints\\{blueprint_name}.json") as file:
