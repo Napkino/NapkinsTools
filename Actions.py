@@ -232,6 +232,7 @@ def create_blueprint(mission_name : str, blueprint_radius : float, center : str 
     blueprint_data['AtomicBuilderInfo']['origin'] = origin
     # creates a Nuclear Option openable version of the blueprint in the local blueprints directory, so that we can store them ourselves.
     json.dump(blueprint_data, open(f"Blueprints\\{final_blueprint_name}.json", 'w', encoding='UTF-8'), indent=4)
+    exit(0)# yeah no only one blueprint at a time screw you
 
 def parse_requests(mission_name : str):
     data = open_mission_json(mission_name)
