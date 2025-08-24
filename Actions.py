@@ -173,13 +173,13 @@ def group_into_outcome(mission_name : str, group_radius : float, center : tuple[
 
 def create_blueprint(mission_name : str, blueprint_radius : float, center : str | tuple[float,float,float] | None = None, final_blueprint_name : str | None = None):
     data = open_mission_json(mission_name)
-
+    print("STARTING TO MAKE BLUEPRINT")
     origin = (0,0,0)
     match center:
         # if the center is a string they gave us an airbase as the center, so we set its center as the origin.
         case str():
             for airbase in data['airbases']:
-                if airbase['DisplayName'] == center:
+                if airbase['UniqueName'] == center:
                     origin = utils.json_get_coords(airbase, 'SelectionPosition')
                     break
         # if the center is a tuple of 3 floats, they gave us the origin in X Y Z coords.
@@ -202,19 +202,18 @@ def create_blueprint(mission_name : str, blueprint_radius : float, center : str 
                     obj_num += 1
             # coords are stored out to 12 decimals in the json files, so we round them here.
             origin = (round(total_x / obj_num, 12), round(total_y / obj_num, 12), round(total_z / obj_num, 12))
-    
+    print("FOUND ORIGIN")
     blueprint_data = remove_all_outside_zone(data, blueprint_radius, origin)
     if final_blueprint_name == None:
         final_blueprint_name = mission_name
-    blueprint_dir = "Blueprints"
-    if not os.path.isdir(blueprint_dir):
-        os.mkdir(blueprint_dir)
     # storing info we want for down the line.
     if not 'AtomicBuilderInfo' in blueprint_data:
         blueprint_data['AtomicBuilderInfo'] = DEFAULT_ATOMIC_BUILDER_INFO
     blueprint_data['AtomicBuilderInfo']['origin'] = origin
+    print(f"ORIGIN: {origin}")
     # creates a Nuclear Option openable version of the blueprint in the local blueprints directory, so that we can store them ourselves.
-    json.dump(blueprint_data, open(f"{blueprint_dir}\\{final_blueprint_name}.json", 'w', encoding='UTF-8'), indent=4)
+    json.dump(blueprint_data, open(f"Blueprints\\{final_blueprint_name}.json", 'w', encoding='UTF-8'), indent=4)
+    print("DUMPED THINGY")
 
 def parse_requests(mission_name : str):
     data = open_mission_json(mission_name)
