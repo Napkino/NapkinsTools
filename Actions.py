@@ -268,10 +268,14 @@ def parse_requests(mission_name : str):
             print(f"Performing action. Action: {requested_action} | Args: {args}")
             # Remove object we got the request from the file, since it could be in the way of the action.
             data[cat].remove(obj)
+            print("FIRST PARSING DUMP")
             dump_mission(data, mission_name)
+            print("PASSED\n")
             done = ACTIONS[requested_action](mission_name, *args)
             if done is not None:
+                print("SECOND DUMP")
                 dump_mission(done, mission_name)
+                print("PASSED")
             return parse_requests(mission_name)
 
 create_backup(config.MISSION_NAME)
