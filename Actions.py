@@ -15,21 +15,31 @@ print(f"blueprints stored in the blueprints directory attached to this project."
 DEFAULT_ATOMIC_BUILDER_INFO = {'origin':(0,0,0)}
 
 def open_mission_json(mission_name : str):
-    with open(f'{config.NUCLEAR_OPTION_MISSION_FOLDER_PATH}\\{mission_name}\\{mission_name}.json') as file:
-        data = json.load(file)
-    return data
+    try:
+        with open(f'{config.NUCLEAR_OPTION_MISSION_FOLDER_PATH}\\{mission_name}\\{mission_name}.json') as file:
+            data = json.load(file)
+        return data
+    except Exception as e:
+        print("OPEN MISSION JSON ERROR, EXITING")
+        exit(0)
 
 def create_backup(mission_name : str):
-    os.makedirs('backups', exist_ok=True)
-    with open(f'{config.NUCLEAR_OPTION_MISSION_FOLDER_PATH}\\{mission_name}\\{mission_name}.json', 'r', encoding='UTF-8') as file:
-        data = file.read()
-        file.close()
-    with open(f'backups\\{mission_name}.json', 'w', encoding='UTF-8') as backup:
-        backup.write(data)
-        backup.close()
+    try:
+        os.makedirs('backups', exist_ok=True)
+        with open(f'{config.NUCLEAR_OPTION_MISSION_FOLDER_PATH}\\{mission_name}\\{mission_name}.json', 'r', encoding='UTF-8') as file:
+            data = file.read()
+            file.close()
+        with open(f'backups\\{mission_name}.json', 'w', encoding='UTF-8') as backup:
+            backup.write(data)
+            backup.close()
+    except Exception as e:
+        print("MAKING BACKUP SCREWED UP")
 
 def dump_mission(data, mission_name):
-    json.dump(data, open(f'{config.NUCLEAR_OPTION_MISSION_FOLDER_PATH}\\{mission_name}\\{mission_name}.json', 'w', encoding='UTF-8'), indent=4)
+    try:
+        json.dump(data, open(f'{config.NUCLEAR_OPTION_MISSION_FOLDER_PATH}\\{mission_name}\\{mission_name}.json', 'w', encoding='UTF-8'), indent=4)
+    except Exception as e:
+        print("DUMP MISSION ERROR")
 
 def get_objs_in_zone(obj_list, key : str, center : tuple[float, float, float], zone_radius_meters : float):
     objs = list()
@@ -51,9 +61,12 @@ def remove_all_outside_zone(mission_name, zone_radius_meters : float, center : s
                 if airbase['DisplayName'] == center:
                     center_coords = utils.json_get_coords(airbase)
                     break
-    for category in config.CATEGORIES_OF_OBJECTS_TO_MANIPULATE:
-        data[category] = get_objs_in_zone(data, category, center_coords, zone_radius_meters)
-
+    try:
+        for category in config.CATEGORIES_OF_OBJECTS_TO_MANIPULATE:
+            data[category] = get_objs_in_zone(data, category, center_coords, zone_radius_meters)
+    except Exception as e:
+        print("GETTING OBJECTS IN THE ZONE SCREWED UP")
+        exit(0)
     dump_mission(data, mission_name)
 
 def get_blueprint_data(blueprint_name : str):
@@ -203,7 +216,11 @@ def create_blueprint(mission_name : str, blueprint_radius : float, center : str 
             # coords are stored out to 12 decimals in the json files, so we round them here.
             origin = (round(total_x / obj_num, 12), round(total_y / obj_num, 12), round(total_z / obj_num, 12))
     print("FOUND ORIGIN")
-    blueprint_data = remove_all_outside_zone(data, blueprint_radius, origin)
+    try:
+        blueprint_data = remove_all_outside_zone(data, blueprint_radius, origin)
+    except Exception as e:
+        print("REMOVING ALL DID SOMETHING WRONG")
+        exit(0)
     if final_blueprint_name == None:
         final_blueprint_name = mission_name
     # storing info we want for down the line.
@@ -258,5 +275,8 @@ def parse_requests(mission_name : str):
 
 create_backup(config.MISSION_NAME)
 print("Backup Created")
-parse_requests(config.MISSION_NAME)
+try:
+    parse_requests(config.MISSION_NAME)
+except Exception as e:
+    print("Something in parsing screwed up")
 print("Done :)")
