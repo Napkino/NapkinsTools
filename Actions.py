@@ -214,6 +214,7 @@ def create_blueprint(mission_name : str, blueprint_radius : float, center : str 
     # creates a Nuclear Option openable version of the blueprint in the local blueprints directory, so that we can store them ourselves.
     json.dump(blueprint_data, open(f"Blueprints\\{final_blueprint_name}.json", 'w', encoding='UTF-8'), indent=4)
     print("DUMPED THINGY")
+    exit(0)#FUCK IT, WERE EXITING THE PROGRAM, ONLY ONE AT A TIME
 
 def parse_requests(mission_name : str):
     data = open_mission_json(mission_name)
