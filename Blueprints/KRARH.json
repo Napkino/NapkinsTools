@@ -1,0 +1,4871 @@
+{
+    "JsonVersion": 3,
+    "WorkshopId": 0,
+    "MapKey": {
+        "Type": 1,
+        "TypeName": "GameWorldPrefab",
+        "Path": "Terrain1"
+    },
+    "missionSettings": {
+        "description": "",
+        "Tags": [],
+        "playerMode": 0,
+        "allowRespawn": false,
+        "playerStartingRank": 0,
+        "rankMultiplier": 1.0,
+        "successfulSortieBonus": 0.25,
+        "nuclearEscalationThreshold": 0.0,
+        "strategicEscalationThreshold": 0.0,
+        "cameraStartPosition": {
+            "IsOverride": false,
+            "Value": {
+                "Position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                }
+            }
+        },
+        "missionRoads": {
+            "roads": []
+        },
+        "wrecksMaxNumber": 0,
+        "wrecksDecayTime": 0.0
+    },
+    "environment": {
+        "timeOfDay": 10.0,
+        "timeFactor": 0.0,
+        "weatherIntensity": 0.0,
+        "cloudAltitude": 1800.0,
+        "windSpeed": 0.0,
+        "windTurbulence": 0.0,
+        "windHeading": 0.0,
+        "windRandomHeading": 0.0
+    },
+    "aircraft": [
+        {
+            "type": "Multirole1",
+            "faction": "Primeva",
+            "UniqueName": "Multirole1",
+            "globalPosition": {
+                "x": 50.0,
+                "y": 1000.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": []
+            },
+            "savedLoadout": {
+                "Selected": [
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    }
+                ]
+            },
+            "livery": 0,
+            "liveryType": 2,
+            "liveryName": "3281205398",
+            "fuel": 1.0,
+            "skill": 1.0,
+            "bravery": 0.5,
+            "startingSpeed": 158.6938934326172
+        },
+        {
+            "type": "Multirole1",
+            "faction": "Primeva",
+            "UniqueName": "Multirole1_1",
+            "globalPosition": {
+                "x": -50.0,
+                "y": 1000.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": []
+            },
+            "savedLoadout": {
+                "Selected": [
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    }
+                ]
+            },
+            "livery": 0,
+            "liveryType": 2,
+            "liveryName": "3281205398",
+            "fuel": 1.0,
+            "skill": 1.0,
+            "bravery": 0.5,
+            "startingSpeed": 158.6938934326172
+        },
+        {
+            "type": "Multirole1",
+            "faction": "Primeva",
+            "UniqueName": "Multirole1_ATOM_PASTE_2",
+            "globalPosition": {
+                "x": 50.0,
+                "y": 1000.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": []
+            },
+            "savedLoadout": {
+                "Selected": [
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    }
+                ]
+            },
+            "livery": 0,
+            "liveryType": 2,
+            "liveryName": "3281205398",
+            "fuel": 1.0,
+            "skill": 1.0,
+            "bravery": 0.5,
+            "startingSpeed": 158.6938934326172
+        },
+        {
+            "type": "Multirole1",
+            "faction": "Primeva",
+            "UniqueName": "Multirole1_1_ATOM_PASTE_2",
+            "globalPosition": {
+                "x": -50.0,
+                "y": 1000.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": []
+            },
+            "savedLoadout": {
+                "Selected": [
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    }
+                ]
+            },
+            "livery": 0,
+            "liveryType": 2,
+            "liveryName": "3281205398",
+            "fuel": 1.0,
+            "skill": 1.0,
+            "bravery": 0.5,
+            "startingSpeed": 158.6938934326172
+        },
+        {
+            "type": "Multirole1",
+            "faction": "Primeva",
+            "UniqueName": "Multirole1_ATOM_PASTE_3",
+            "globalPosition": {
+                "x": 50.0,
+                "y": 1000.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": []
+            },
+            "savedLoadout": {
+                "Selected": [
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    }
+                ]
+            },
+            "livery": 0,
+            "liveryType": 2,
+            "liveryName": "3281205398",
+            "fuel": 1.0,
+            "skill": 1.0,
+            "bravery": 0.5,
+            "startingSpeed": 158.6938934326172
+        },
+        {
+            "type": "Multirole1",
+            "faction": "Primeva",
+            "UniqueName": "Multirole1_1_ATOM_PASTE_3",
+            "globalPosition": {
+                "x": -50.0,
+                "y": 1000.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": []
+            },
+            "savedLoadout": {
+                "Selected": [
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    }
+                ]
+            },
+            "livery": 0,
+            "liveryType": 2,
+            "liveryName": "3281205398",
+            "fuel": 1.0,
+            "skill": 1.0,
+            "bravery": 0.5,
+            "startingSpeed": 158.6938934326172
+        },
+        {
+            "type": "Multirole1",
+            "faction": "Primeva",
+            "UniqueName": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_3",
+            "globalPosition": {
+                "x": 50.0,
+                "y": 1000.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": []
+            },
+            "savedLoadout": {
+                "Selected": [
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    }
+                ]
+            },
+            "livery": 0,
+            "liveryType": 2,
+            "liveryName": "3281205398",
+            "fuel": 1.0,
+            "skill": 1.0,
+            "bravery": 0.5,
+            "startingSpeed": 158.6938934326172
+        },
+        {
+            "type": "Multirole1",
+            "faction": "Primeva",
+            "UniqueName": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_3",
+            "globalPosition": {
+                "x": -50.0,
+                "y": 1000.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": []
+            },
+            "savedLoadout": {
+                "Selected": [
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    }
+                ]
+            },
+            "livery": 0,
+            "liveryType": 2,
+            "liveryName": "3281205398",
+            "fuel": 1.0,
+            "skill": 1.0,
+            "bravery": 0.5,
+            "startingSpeed": 158.6938934326172
+        },
+        {
+            "type": "Multirole1",
+            "faction": "Primeva",
+            "UniqueName": "Multirole1_ATOM_PASTE_4",
+            "globalPosition": {
+                "x": 50.0,
+                "y": 1000.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": []
+            },
+            "savedLoadout": {
+                "Selected": [
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    }
+                ]
+            },
+            "livery": 0,
+            "liveryType": 2,
+            "liveryName": "3281205398",
+            "fuel": 1.0,
+            "skill": 1.0,
+            "bravery": 0.5,
+            "startingSpeed": 158.6938934326172
+        },
+        {
+            "type": "Multirole1",
+            "faction": "Primeva",
+            "UniqueName": "Multirole1_1_ATOM_PASTE_4",
+            "globalPosition": {
+                "x": -50.0,
+                "y": 1000.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": []
+            },
+            "savedLoadout": {
+                "Selected": [
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    }
+                ]
+            },
+            "livery": 0,
+            "liveryType": 2,
+            "liveryName": "3281205398",
+            "fuel": 1.0,
+            "skill": 1.0,
+            "bravery": 0.5,
+            "startingSpeed": 158.6938934326172
+        },
+        {
+            "type": "Multirole1",
+            "faction": "Primeva",
+            "UniqueName": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_4",
+            "globalPosition": {
+                "x": 50.0,
+                "y": 1000.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": []
+            },
+            "savedLoadout": {
+                "Selected": [
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    }
+                ]
+            },
+            "livery": 0,
+            "liveryType": 2,
+            "liveryName": "3281205398",
+            "fuel": 1.0,
+            "skill": 1.0,
+            "bravery": 0.5,
+            "startingSpeed": 158.6938934326172
+        },
+        {
+            "type": "Multirole1",
+            "faction": "Primeva",
+            "UniqueName": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_4",
+            "globalPosition": {
+                "x": -50.0,
+                "y": 1000.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": []
+            },
+            "savedLoadout": {
+                "Selected": [
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    }
+                ]
+            },
+            "livery": 0,
+            "liveryType": 2,
+            "liveryName": "3281205398",
+            "fuel": 1.0,
+            "skill": 1.0,
+            "bravery": 0.5,
+            "startingSpeed": 158.6938934326172
+        },
+        {
+            "type": "Multirole1",
+            "faction": "Primeva",
+            "UniqueName": "Multirole1_ATOM_PASTE_3_ATOM_PASTE_4",
+            "globalPosition": {
+                "x": 50.0,
+                "y": 1000.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": []
+            },
+            "savedLoadout": {
+                "Selected": [
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    }
+                ]
+            },
+            "livery": 0,
+            "liveryType": 2,
+            "liveryName": "3281205398",
+            "fuel": 1.0,
+            "skill": 1.0,
+            "bravery": 0.5,
+            "startingSpeed": 158.6938934326172
+        },
+        {
+            "type": "Multirole1",
+            "faction": "Primeva",
+            "UniqueName": "Multirole1_1_ATOM_PASTE_3_ATOM_PASTE_4",
+            "globalPosition": {
+                "x": -50.0,
+                "y": 1000.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": []
+            },
+            "savedLoadout": {
+                "Selected": [
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    }
+                ]
+            },
+            "livery": 0,
+            "liveryType": 2,
+            "liveryName": "3281205398",
+            "fuel": 1.0,
+            "skill": 1.0,
+            "bravery": 0.5,
+            "startingSpeed": 158.6938934326172
+        },
+        {
+            "type": "Multirole1",
+            "faction": "Primeva",
+            "UniqueName": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4",
+            "globalPosition": {
+                "x": 50.0,
+                "y": 1000.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": []
+            },
+            "savedLoadout": {
+                "Selected": [
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    }
+                ]
+            },
+            "livery": 0,
+            "liveryType": 2,
+            "liveryName": "3281205398",
+            "fuel": 1.0,
+            "skill": 1.0,
+            "bravery": 0.5,
+            "startingSpeed": 158.6938934326172
+        },
+        {
+            "type": "Multirole1",
+            "faction": "Primeva",
+            "UniqueName": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4",
+            "globalPosition": {
+                "x": -50.0,
+                "y": 1000.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": []
+            },
+            "savedLoadout": {
+                "Selected": [
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    }
+                ]
+            },
+            "livery": 0,
+            "liveryType": 2,
+            "liveryName": "3281205398",
+            "fuel": 1.0,
+            "skill": 1.0,
+            "bravery": 0.5,
+            "startingSpeed": 158.6938934326172
+        },
+        {
+            "type": "Multirole1",
+            "faction": "Primeva",
+            "UniqueName": "Multirole1_ATOM_PASTE_5",
+            "globalPosition": {
+                "x": 50.0,
+                "y": 1000.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": []
+            },
+            "savedLoadout": {
+                "Selected": [
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    }
+                ]
+            },
+            "livery": 0,
+            "liveryType": 2,
+            "liveryName": "3281205398",
+            "fuel": 1.0,
+            "skill": 1.0,
+            "bravery": 0.5,
+            "startingSpeed": 158.6938934326172
+        },
+        {
+            "type": "Multirole1",
+            "faction": "Primeva",
+            "UniqueName": "Multirole1_1_ATOM_PASTE_5",
+            "globalPosition": {
+                "x": -50.0,
+                "y": 1000.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": []
+            },
+            "savedLoadout": {
+                "Selected": [
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    }
+                ]
+            },
+            "livery": 0,
+            "liveryType": 2,
+            "liveryName": "3281205398",
+            "fuel": 1.0,
+            "skill": 1.0,
+            "bravery": 0.5,
+            "startingSpeed": 158.6938934326172
+        },
+        {
+            "type": "Multirole1",
+            "faction": "Primeva",
+            "UniqueName": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_5",
+            "globalPosition": {
+                "x": 50.0,
+                "y": 1000.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": []
+            },
+            "savedLoadout": {
+                "Selected": [
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    }
+                ]
+            },
+            "livery": 0,
+            "liveryType": 2,
+            "liveryName": "3281205398",
+            "fuel": 1.0,
+            "skill": 1.0,
+            "bravery": 0.5,
+            "startingSpeed": 158.6938934326172
+        },
+        {
+            "type": "Multirole1",
+            "faction": "Primeva",
+            "UniqueName": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_5",
+            "globalPosition": {
+                "x": -50.0,
+                "y": 1000.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": []
+            },
+            "savedLoadout": {
+                "Selected": [
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    }
+                ]
+            },
+            "livery": 0,
+            "liveryType": 2,
+            "liveryName": "3281205398",
+            "fuel": 1.0,
+            "skill": 1.0,
+            "bravery": 0.5,
+            "startingSpeed": 158.6938934326172
+        },
+        {
+            "type": "Multirole1",
+            "faction": "Primeva",
+            "UniqueName": "Multirole1_ATOM_PASTE_3_ATOM_PASTE_5",
+            "globalPosition": {
+                "x": 50.0,
+                "y": 1000.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": []
+            },
+            "savedLoadout": {
+                "Selected": [
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    }
+                ]
+            },
+            "livery": 0,
+            "liveryType": 2,
+            "liveryName": "3281205398",
+            "fuel": 1.0,
+            "skill": 1.0,
+            "bravery": 0.5,
+            "startingSpeed": 158.6938934326172
+        },
+        {
+            "type": "Multirole1",
+            "faction": "Primeva",
+            "UniqueName": "Multirole1_1_ATOM_PASTE_3_ATOM_PASTE_5",
+            "globalPosition": {
+                "x": -50.0,
+                "y": 1000.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": []
+            },
+            "savedLoadout": {
+                "Selected": [
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    }
+                ]
+            },
+            "livery": 0,
+            "liveryType": 2,
+            "liveryName": "3281205398",
+            "fuel": 1.0,
+            "skill": 1.0,
+            "bravery": 0.5,
+            "startingSpeed": 158.6938934326172
+        },
+        {
+            "type": "Multirole1",
+            "faction": "Primeva",
+            "UniqueName": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_5",
+            "globalPosition": {
+                "x": 50.0,
+                "y": 1000.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": []
+            },
+            "savedLoadout": {
+                "Selected": [
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    }
+                ]
+            },
+            "livery": 0,
+            "liveryType": 2,
+            "liveryName": "3281205398",
+            "fuel": 1.0,
+            "skill": 1.0,
+            "bravery": 0.5,
+            "startingSpeed": 158.6938934326172
+        },
+        {
+            "type": "Multirole1",
+            "faction": "Primeva",
+            "UniqueName": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_5",
+            "globalPosition": {
+                "x": -50.0,
+                "y": 1000.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": []
+            },
+            "savedLoadout": {
+                "Selected": [
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    }
+                ]
+            },
+            "livery": 0,
+            "liveryType": 2,
+            "liveryName": "3281205398",
+            "fuel": 1.0,
+            "skill": 1.0,
+            "bravery": 0.5,
+            "startingSpeed": 158.6938934326172
+        },
+        {
+            "type": "Multirole1",
+            "faction": "Primeva",
+            "UniqueName": "Multirole1_ATOM_PASTE_4_ATOM_PASTE_5",
+            "globalPosition": {
+                "x": 50.0,
+                "y": 1000.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": []
+            },
+            "savedLoadout": {
+                "Selected": [
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    }
+                ]
+            },
+            "livery": 0,
+            "liveryType": 2,
+            "liveryName": "3281205398",
+            "fuel": 1.0,
+            "skill": 1.0,
+            "bravery": 0.5,
+            "startingSpeed": 158.6938934326172
+        },
+        {
+            "type": "Multirole1",
+            "faction": "Primeva",
+            "UniqueName": "Multirole1_1_ATOM_PASTE_4_ATOM_PASTE_5",
+            "globalPosition": {
+                "x": -50.0,
+                "y": 1000.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": []
+            },
+            "savedLoadout": {
+                "Selected": [
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    }
+                ]
+            },
+            "livery": 0,
+            "liveryType": 2,
+            "liveryName": "3281205398",
+            "fuel": 1.0,
+            "skill": 1.0,
+            "bravery": 0.5,
+            "startingSpeed": 158.6938934326172
+        },
+        {
+            "type": "Multirole1",
+            "faction": "Primeva",
+            "UniqueName": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_4_ATOM_PASTE_5",
+            "globalPosition": {
+                "x": 50.0,
+                "y": 1000.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": []
+            },
+            "savedLoadout": {
+                "Selected": [
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    }
+                ]
+            },
+            "livery": 0,
+            "liveryType": 2,
+            "liveryName": "3281205398",
+            "fuel": 1.0,
+            "skill": 1.0,
+            "bravery": 0.5,
+            "startingSpeed": 158.6938934326172
+        },
+        {
+            "type": "Multirole1",
+            "faction": "Primeva",
+            "UniqueName": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_4_ATOM_PASTE_5",
+            "globalPosition": {
+                "x": -50.0,
+                "y": 1000.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": []
+            },
+            "savedLoadout": {
+                "Selected": [
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    }
+                ]
+            },
+            "livery": 0,
+            "liveryType": 2,
+            "liveryName": "3281205398",
+            "fuel": 1.0,
+            "skill": 1.0,
+            "bravery": 0.5,
+            "startingSpeed": 158.6938934326172
+        },
+        {
+            "type": "Multirole1",
+            "faction": "Primeva",
+            "UniqueName": "Multirole1_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5",
+            "globalPosition": {
+                "x": 50.0,
+                "y": 1000.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": []
+            },
+            "savedLoadout": {
+                "Selected": [
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    }
+                ]
+            },
+            "livery": 0,
+            "liveryType": 2,
+            "liveryName": "3281205398",
+            "fuel": 1.0,
+            "skill": 1.0,
+            "bravery": 0.5,
+            "startingSpeed": 158.6938934326172
+        },
+        {
+            "type": "Multirole1",
+            "faction": "Primeva",
+            "UniqueName": "Multirole1_1_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5",
+            "globalPosition": {
+                "x": -50.0,
+                "y": 1000.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": []
+            },
+            "savedLoadout": {
+                "Selected": [
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    }
+                ]
+            },
+            "livery": 0,
+            "liveryType": 2,
+            "liveryName": "3281205398",
+            "fuel": 1.0,
+            "skill": 1.0,
+            "bravery": 0.5,
+            "startingSpeed": 158.6938934326172
+        },
+        {
+            "type": "Multirole1",
+            "faction": "Primeva",
+            "UniqueName": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5",
+            "globalPosition": {
+                "x": 50.0,
+                "y": 1000.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": []
+            },
+            "savedLoadout": {
+                "Selected": [
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    }
+                ]
+            },
+            "livery": 0,
+            "liveryType": 2,
+            "liveryName": "3281205398",
+            "fuel": 1.0,
+            "skill": 1.0,
+            "bravery": 0.5,
+            "startingSpeed": 158.6938934326172
+        },
+        {
+            "type": "Multirole1",
+            "faction": "Primeva",
+            "UniqueName": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5",
+            "globalPosition": {
+                "x": -50.0,
+                "y": 1000.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": []
+            },
+            "savedLoadout": {
+                "Selected": [
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    },
+                    {
+                        "Key": "AAM4_triple_internal"
+                    }
+                ]
+            },
+            "livery": 0,
+            "liveryType": 2,
+            "liveryName": "3281205398",
+            "fuel": 1.0,
+            "skill": 1.0,
+            "bravery": 0.5,
+            "startingSpeed": 158.6938934326172
+        }
+    ],
+    "vehicles": [],
+    "ships": [],
+    "buildings": [],
+    "factions": [
+        {
+            "factionName": "Boscali",
+            "preventJoin": false,
+            "preventDonation": false,
+            "supplies": [],
+            "startingBalance": 0.0,
+            "playerJoinAllowance": 20.0,
+            "playerTaxRate": 0.20000000298023224,
+            "regularIncome": 5.0,
+            "killReward": 1.0,
+            "startingWarheads": 0,
+            "reserveWarheads": 0,
+            "reserveAirframes": 0,
+            "extraReservesPerPlayer": 1,
+            "AIAircraftLimit": 6,
+            "reduceAIPerFriendlyPlayer": 1.0,
+            "addAIPerEnemyPlayer": 1.0,
+            "objectives": [],
+            "restrictions": {
+                "aircraft": [],
+                "weapons": []
+            },
+            "cameraStartPosition": {
+                "IsOverride": false,
+                "Value": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    }
+                }
+            }
+        },
+        {
+            "factionName": "Primeva",
+            "preventJoin": false,
+            "preventDonation": false,
+            "supplies": [],
+            "startingBalance": 0.0,
+            "playerJoinAllowance": 20.0,
+            "playerTaxRate": 0.20000000298023224,
+            "regularIncome": 5.0,
+            "killReward": 1.0,
+            "startingWarheads": 0,
+            "reserveWarheads": 0,
+            "reserveAirframes": 0,
+            "extraReservesPerPlayer": 1,
+            "AIAircraftLimit": 6,
+            "reduceAIPerFriendlyPlayer": 1.0,
+            "addAIPerEnemyPlayer": 1.0,
+            "objectives": [],
+            "restrictions": {
+                "aircraft": [],
+                "weapons": []
+            },
+            "cameraStartPosition": {
+                "IsOverride": false,
+                "Value": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    }
+                }
+            }
+        }
+    ],
+    "airbases": [],
+    "unitInventories": [],
+    "objectives": {
+        "Objectives": [
+            {
+                "UniqueName": "Mission Start",
+                "Faction": "",
+                "DisplayName": "",
+                "Hidden": true,
+                "Type": 0,
+                "TypeName": "None",
+                "Data": [],
+                "Outcomes": [
+                    "Start"
+                ]
+            },
+            {
+                "UniqueName": "WaitA",
+                "Faction": "",
+                "DisplayName": "",
+                "Hidden": false,
+                "Type": 4,
+                "TypeName": "WaitSeconds",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 300.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "SpawnA",
+                    "StartA"
+                ]
+            },
+            {
+                "UniqueName": "DestroyA",
+                "Faction": "",
+                "DisplayName": "",
+                "Hidden": false,
+                "Type": 1,
+                "TypeName": "DestroyUnits",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 1.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "WaitB"
+                ]
+            },
+            {
+                "UniqueName": "WaitB",
+                "Faction": "",
+                "DisplayName": "",
+                "Hidden": false,
+                "Type": 4,
+                "TypeName": "WaitSeconds",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 300.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "SpawnB",
+                    "StartB"
+                ]
+            },
+            {
+                "UniqueName": "DestroyB",
+                "Faction": "",
+                "DisplayName": "",
+                "Hidden": false,
+                "Type": 1,
+                "TypeName": "DestroyUnits",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 1.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_2",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_2",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "WaitC"
+                ]
+            },
+            {
+                "UniqueName": "WaitC",
+                "Faction": "",
+                "DisplayName": "",
+                "Hidden": false,
+                "Type": 4,
+                "TypeName": "WaitSeconds",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 300.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "SpawnC",
+                    "StartC"
+                ]
+            },
+            {
+                "UniqueName": "DestroyC",
+                "Faction": "",
+                "DisplayName": "",
+                "Hidden": false,
+                "Type": 1,
+                "TypeName": "DestroyUnits",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 1.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_3",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_3",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "WaitD"
+                ]
+            },
+            {
+                "UniqueName": "WaitD",
+                "Faction": "",
+                "DisplayName": "",
+                "Hidden": false,
+                "Type": 4,
+                "TypeName": "WaitSeconds",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 300.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "SpawnD",
+                    "StartD"
+                ]
+            },
+            {
+                "UniqueName": "DestroyD",
+                "Faction": "",
+                "DisplayName": "",
+                "Hidden": false,
+                "Type": 1,
+                "TypeName": "DestroyUnits",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 1.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_3",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_3",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "WaitE"
+                ]
+            },
+            {
+                "UniqueName": "WaitE",
+                "Faction": "",
+                "DisplayName": "",
+                "Hidden": false,
+                "Type": 4,
+                "TypeName": "WaitSeconds",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 300.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "SpawnE",
+                    "StartE"
+                ]
+            },
+            {
+                "UniqueName": "DestroyE",
+                "Faction": "",
+                "DisplayName": "",
+                "Hidden": false,
+                "Type": 1,
+                "TypeName": "DestroyUnits",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 1.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_4",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_4",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "WaitF"
+                ]
+            },
+            {
+                "UniqueName": "WaitF",
+                "Faction": "",
+                "DisplayName": "",
+                "Hidden": false,
+                "Type": 4,
+                "TypeName": "WaitSeconds",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 300.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "SpawnF",
+                    "StartF"
+                ]
+            },
+            {
+                "UniqueName": "DestroyF",
+                "Faction": "",
+                "DisplayName": "",
+                "Hidden": false,
+                "Type": 1,
+                "TypeName": "DestroyUnits",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 1.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_4",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_4",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "WaitG"
+                ]
+            },
+            {
+                "UniqueName": "WaitG",
+                "Faction": "",
+                "DisplayName": "",
+                "Hidden": false,
+                "Type": 4,
+                "TypeName": "WaitSeconds",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 300.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "SpawnG",
+                    "StartG"
+                ]
+            },
+            {
+                "UniqueName": "DestroyG",
+                "Faction": "",
+                "DisplayName": "",
+                "Hidden": false,
+                "Type": 1,
+                "TypeName": "DestroyUnits",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 1.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_3_ATOM_PASTE_4",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_3_ATOM_PASTE_4",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "WaitH"
+                ]
+            },
+            {
+                "UniqueName": "WaitH",
+                "Faction": "",
+                "DisplayName": "",
+                "Hidden": false,
+                "Type": 4,
+                "TypeName": "WaitSeconds",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 300.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "SpawnH",
+                    "StartH"
+                ]
+            },
+            {
+                "UniqueName": "DestroyH",
+                "Faction": "",
+                "DisplayName": "",
+                "Hidden": false,
+                "Type": 1,
+                "TypeName": "DestroyUnits",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 1.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "WaitI"
+                ]
+            },
+            {
+                "UniqueName": "WaitI",
+                "Faction": "",
+                "DisplayName": "",
+                "Hidden": false,
+                "Type": 4,
+                "TypeName": "WaitSeconds",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 300.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "SpawnA_ATOM_PASTE_5",
+                    "StartA_ATOM_PASTE_5"
+                ]
+            },
+            {
+                "UniqueName": "DestroyI",
+                "Faction": "",
+                "DisplayName": "",
+                "Hidden": false,
+                "Type": 1,
+                "TypeName": "DestroyUnits",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 1.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "WaitB_ATOM_PASTE_5"
+                ]
+            },
+            {
+                "UniqueName": "WaitJ",
+                "Faction": "",
+                "DisplayName": "",
+                "Hidden": false,
+                "Type": 4,
+                "TypeName": "WaitSeconds",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 300.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "SpawnB_ATOM_PASTE_5",
+                    "StartB_ATOM_PASTE_5"
+                ]
+            },
+            {
+                "UniqueName": "DestroyJ",
+                "Faction": "",
+                "DisplayName": "",
+                "Hidden": false,
+                "Type": 1,
+                "TypeName": "DestroyUnits",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 1.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "WaitC_ATOM_PASTE_5"
+                ]
+            },
+            {
+                "UniqueName": "WaitK",
+                "Faction": "",
+                "DisplayName": "",
+                "Hidden": false,
+                "Type": 4,
+                "TypeName": "WaitSeconds",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 300.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "SpawnC_ATOM_PASTE_5",
+                    "StartC_ATOM_PASTE_5"
+                ]
+            },
+            {
+                "UniqueName": "DestroyK",
+                "Faction": "",
+                "DisplayName": "",
+                "Hidden": false,
+                "Type": 1,
+                "TypeName": "DestroyUnits",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 1.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_3_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_3_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "WaitD_ATOM_PASTE_5"
+                ]
+            },
+            {
+                "UniqueName": "WaitL",
+                "Faction": "",
+                "DisplayName": "",
+                "Hidden": false,
+                "Type": 4,
+                "TypeName": "WaitSeconds",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 300.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "SpawnD_ATOM_PASTE_5",
+                    "StartD_ATOM_PASTE_5"
+                ]
+            },
+            {
+                "UniqueName": "DestroyL",
+                "Faction": "",
+                "DisplayName": "",
+                "Hidden": false,
+                "Type": 1,
+                "TypeName": "DestroyUnits",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 1.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "WaitE_ATOM_PASTE_5"
+                ]
+            },
+            {
+                "UniqueName": "WaitM",
+                "Faction": "",
+                "DisplayName": "",
+                "Hidden": false,
+                "Type": 4,
+                "TypeName": "WaitSeconds",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 300.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "SpawnE_ATOM_PASTE_5",
+                    "StartE_ATOM_PASTE_5"
+                ]
+            },
+            {
+                "UniqueName": "DestroyM",
+                "Faction": "",
+                "DisplayName": "",
+                "Hidden": false,
+                "Type": 1,
+                "TypeName": "DestroyUnits",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 1.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "WaitF_ATOM_PASTE_5"
+                ]
+            },
+            {
+                "UniqueName": "WaitN",
+                "Faction": "",
+                "DisplayName": "",
+                "Hidden": false,
+                "Type": 4,
+                "TypeName": "WaitSeconds",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 300.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "SpawnF_ATOM_PASTE_5",
+                    "StartF_ATOM_PASTE_5"
+                ]
+            },
+            {
+                "UniqueName": "DestroyN",
+                "Faction": "",
+                "DisplayName": "",
+                "Hidden": false,
+                "Type": 1,
+                "TypeName": "DestroyUnits",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 1.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "WaitG_ATOM_PASTE_5"
+                ]
+            },
+            {
+                "UniqueName": "WaitO",
+                "Faction": "",
+                "DisplayName": "",
+                "Hidden": false,
+                "Type": 4,
+                "TypeName": "WaitSeconds",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 300.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "SpawnG_ATOM_PASTE_5",
+                    "StartG_ATOM_PASTE_5"
+                ]
+            },
+            {
+                "UniqueName": "DestroyO",
+                "Faction": "",
+                "DisplayName": "",
+                "Hidden": false,
+                "Type": 1,
+                "TypeName": "DestroyUnits",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 1.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "WaitH_ATOM_PASTE_5"
+                ]
+            },
+            {
+                "UniqueName": "WaitP",
+                "Faction": "",
+                "DisplayName": "",
+                "Hidden": false,
+                "Type": 4,
+                "TypeName": "WaitSeconds",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 300.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "SpawnH_ATOM_PASTE_5",
+                    "StartH_ATOM_PASTE_5"
+                ]
+            },
+            {
+                "UniqueName": "DestroyP",
+                "Faction": "",
+                "DisplayName": "",
+                "Hidden": false,
+                "Type": 1,
+                "TypeName": "DestroyUnits",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 1.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "WaitI_ATOM_PASTE_5"
+                ]
+            }
+        ],
+        "Outcomes": [
+            {
+                "UniqueName": "SpawnA",
+                "Type": 5,
+                "TypeName": "SpawnUnit",
+                "Data": [
+                    {
+                        "StringValue": "Multirole1",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "SpawnB",
+                "Type": 5,
+                "TypeName": "SpawnUnit",
+                "Data": [
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_2",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_2",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "WaitB",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "WaitB",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "empty_1",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "DestroyA",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "SpawnC",
+                "Type": 5,
+                "TypeName": "SpawnUnit",
+                "Data": [
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_3",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_3",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "SpawnD",
+                "Type": 5,
+                "TypeName": "SpawnUnit",
+                "Data": [
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_3",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_3",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "WaitD",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "WaitD",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "empty_1_ATOM_PASTE_3",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "DestroyC",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "Start",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "WaitA",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "StartA",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "DestroyA",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "WaitC",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "WaitC",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "StartC",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "DestroyC",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "StartB",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "DestroyB",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "StartD",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "DestroyD",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "WaitE",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "WaitE",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "SpawnE",
+                "Type": 5,
+                "TypeName": "SpawnUnit",
+                "Data": [
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_4",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_4",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "SpawnF",
+                "Type": 5,
+                "TypeName": "SpawnUnit",
+                "Data": [
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_4",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_4",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "WaitF",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "WaitF",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "empty_1_ATOM_PASTE_4",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "DestroyE",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "SpawnG",
+                "Type": 5,
+                "TypeName": "SpawnUnit",
+                "Data": [
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_3_ATOM_PASTE_4",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_3_ATOM_PASTE_4",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "SpawnH",
+                "Type": 5,
+                "TypeName": "SpawnUnit",
+                "Data": [
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "WaitH",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "WaitH",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "empty_1_ATOM_PASTE_3_ATOM_PASTE_4",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "DestroyG",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "Start_ATOM_PASTE_4",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "WaitE",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "StartE",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "DestroyE",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "WaitG",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "WaitG",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "StartG",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "DestroyG",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "StartF",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "DestroyF",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "StartH",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "DestroyH",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "WaitI",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "WaitI",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "SpawnA_ATOM_PASTE_5",
+                "Type": 5,
+                "TypeName": "SpawnUnit",
+                "Data": [
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "SpawnB_ATOM_PASTE_5",
+                "Type": 5,
+                "TypeName": "SpawnUnit",
+                "Data": [
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "WaitB_ATOM_PASTE_5",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "WaitJ",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "empty_1_ATOM_PASTE_5",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "DestroyI",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "SpawnC_ATOM_PASTE_5",
+                "Type": 5,
+                "TypeName": "SpawnUnit",
+                "Data": [
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_3_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_3_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "SpawnD_ATOM_PASTE_5",
+                "Type": 5,
+                "TypeName": "SpawnUnit",
+                "Data": [
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "WaitD_ATOM_PASTE_5",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "WaitL",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "empty_1_ATOM_PASTE_3_ATOM_PASTE_5",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "DestroyK",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "Start_ATOM_PASTE_5",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "WaitI",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "StartA_ATOM_PASTE_5",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "DestroyI",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "WaitC_ATOM_PASTE_5",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "WaitK",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "StartC_ATOM_PASTE_5",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "DestroyK",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "StartB_ATOM_PASTE_5",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "DestroyJ",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "StartD_ATOM_PASTE_5",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "DestroyL",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "WaitE_ATOM_PASTE_5",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "WaitM",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "SpawnE_ATOM_PASTE_5",
+                "Type": 5,
+                "TypeName": "SpawnUnit",
+                "Data": [
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "SpawnF_ATOM_PASTE_5",
+                "Type": 5,
+                "TypeName": "SpawnUnit",
+                "Data": [
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "WaitF_ATOM_PASTE_5",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "WaitN",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "empty_1_ATOM_PASTE_4_ATOM_PASTE_5",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "DestroyM",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "SpawnG_ATOM_PASTE_5",
+                "Type": 5,
+                "TypeName": "SpawnUnit",
+                "Data": [
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "SpawnH_ATOM_PASTE_5",
+                "Type": 5,
+                "TypeName": "SpawnUnit",
+                "Data": [
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "WaitH_ATOM_PASTE_5",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "WaitP",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "empty_1_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "DestroyO",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "Start_ATOM_PASTE_4_ATOM_PASTE_5",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "WaitM",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "StartE_ATOM_PASTE_5",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "DestroyM",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "WaitG_ATOM_PASTE_5",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "WaitO",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "StartG_ATOM_PASTE_5",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "DestroyO",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "StartF_ATOM_PASTE_5",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "DestroyN",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "StartH_ATOM_PASTE_5",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "DestroyP",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "WaitI_ATOM_PASTE_5",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": []
+            },
+            {
+                "UniqueName": "Endgame_KRARH_A",
+                "Type": 5,
+                "TypeName": "SpawnUnit",
+                "Data": [
+                    {
+                        "StringValue": "Multirole1",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_2",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_2",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_3",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_3",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_3",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_3",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_4",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_4",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_4",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_4",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_3_ATOM_PASTE_4",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_3_ATOM_PASTE_4",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_3_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_3_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "Endgame_KRARH_B",
+                "Type": 6,
+                "TypeName": "RemoveUnit",
+                "Data": [
+                    {
+                        "StringValue": "Multirole1",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_2",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_2",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_3",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_3",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_3",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_3",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_4",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_4",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_4",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_4",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_3_ATOM_PASTE_4",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_3_ATOM_PASTE_4",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_3_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_3_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "AtomicBuilderInfo": {
+        "origin": [
+            0.0,
+            1000.0,
+            0.0
+        ]
+    }
+}
