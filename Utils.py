@@ -46,6 +46,8 @@ def get_paste_code(data):
     paste_code = 0
     for cat in config.CATEGORIES_OF_OBJECTS_TO_MANIPULATE:
         for obj in data[cat]:
+            if obj is None:
+                continue
             if not 'UniqueName' in obj:
                 continue
             name : str = obj['UniqueName']
