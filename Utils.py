@@ -48,23 +48,31 @@ def get_paste_code(data):
     for cat in config.CATEGORIES_OF_OBJECTS_TO_MANIPULATE:
         if len(data[cat]) < 1:
             continue
-        for obj in data[cat]:
-            if obj is None:
+        for object in data[cat]:
+            try:
+                if object is None:
+                    continue
+                if not 'UniqueName' in object:
+                    continue
+            except UnboundLocalError as e:
+                print("Something was used before it was assigned. Attempting recovery.")
                 continue
-            if not 'UniqueName' in obj:
-                continue
-            name : str = obj['UniqueName']
+            name : str = object['UniqueName']
             split = name.split('_')
             last = split[len(split)-1]
             if last.isnumeric():
                 if paste_code < int(last):
                     paste_code = int(last)
     for objective in data['objectives']['Objectives']:
-        if obj is None:
+        try:
+            if objective is None:
+                continue
+            if not 'UniqueName' in objective:
+                continue
+        except UnboundLocalError as e:
+            print("Something was used before it was assigned. Attempting recovery.")
             continue
-        if not 'UniqueName' in obj:
-            continue
-        name : str = obj['UniqueName']
+        name : str = objective['UniqueName']
         split = name.split('_')
         last = split[len(split)-1]
         if not last.isnumeric():
