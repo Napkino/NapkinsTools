@@ -247,7 +247,13 @@ def create_blueprint(mission_name : str, blueprint_radius : float, center : str 
 def parse_requests(mission_name : str):
     data = open_mission_json(mission_name)
     for cat in config.CATEGORIES_OF_OBJECTS_TO_MANIPULATE:
+        if data[cat] == None:
+            print("NOTHING IN CATEGORY.")
+            continue
         for obj in data[cat]:
+            if obj == None:
+                print("OBJECT WAS NULL, SHOULD NOT HAPPEN")
+                continue
             if not 'UniqueName' in obj:
                 continue
             name = obj['UniqueName']
@@ -293,6 +299,6 @@ print("Backup Created")
 try:
     parse_requests(config.MISSION_NAME)
 except Exception as e:
-    print(e)
     print("Something in parsing screwed up")
+    raise e
 print("Done :)")
