@@ -50,9 +50,9 @@
     },
     "aircraft": [
         {
-            "type": "Multirole1",
+            "type": "Darkreach",
             "faction": "Primeva",
-            "UniqueName": "Multirole1",
+            "UniqueName": "Darkreach_ATOM_PASTE_1",
             "globalPosition": {
                 "x": 50.0,
                 "y": 1000.0,
@@ -82,25 +82,16 @@
             "savedLoadout": {
                 "Selected": [
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": ""
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx2"
                     }
                 ]
             },
@@ -113,9 +104,9 @@
             "startingSpeed": 158.6938934326172
         },
         {
-            "type": "Multirole1",
+            "type": "Darkreach",
             "faction": "Primeva",
-            "UniqueName": "Multirole1_1",
+            "UniqueName": "Darkreach_1_ATOM_PASTE_1",
             "globalPosition": {
                 "x": -50.0,
                 "y": 1000.0,
@@ -145,25 +136,16 @@
             "savedLoadout": {
                 "Selected": [
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": ""
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx2"
                     }
                 ]
             },
@@ -176,9 +158,9 @@
             "startingSpeed": 158.6938934326172
         },
         {
-            "type": "Multirole1",
+            "type": "Darkreach",
             "faction": "Primeva",
-            "UniqueName": "Multirole1_ATOM_PASTE_2",
+            "UniqueName": "Darkreach_ATOM_PASTE_2_ATOM_PASTE_1",
             "globalPosition": {
                 "x": 50.0,
                 "y": 1000.0,
@@ -208,25 +190,16 @@
             "savedLoadout": {
                 "Selected": [
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": ""
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx2"
                     }
                 ]
             },
@@ -239,9 +212,9 @@
             "startingSpeed": 158.6938934326172
         },
         {
-            "type": "Multirole1",
+            "type": "Darkreach",
             "faction": "Primeva",
-            "UniqueName": "Multirole1_1_ATOM_PASTE_2",
+            "UniqueName": "Darkreach_1_ATOM_PASTE_2_ATOM_PASTE_1",
             "globalPosition": {
                 "x": -50.0,
                 "y": 1000.0,
@@ -271,25 +244,16 @@
             "savedLoadout": {
                 "Selected": [
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": ""
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx2"
                     }
                 ]
             },
@@ -302,9 +266,9 @@
             "startingSpeed": 158.6938934326172
         },
         {
-            "type": "Multirole1",
+            "type": "Darkreach",
             "faction": "Primeva",
-            "UniqueName": "Multirole1_ATOM_PASTE_3",
+            "UniqueName": "Darkreach_ATOM_PASTE_3_ATOM_PASTE_1",
             "globalPosition": {
                 "x": 50.0,
                 "y": 1000.0,
@@ -334,25 +298,16 @@
             "savedLoadout": {
                 "Selected": [
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": ""
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx2"
                     }
                 ]
             },
@@ -365,9 +320,9 @@
             "startingSpeed": 158.6938934326172
         },
         {
-            "type": "Multirole1",
+            "type": "Darkreach",
             "faction": "Primeva",
-            "UniqueName": "Multirole1_1_ATOM_PASTE_3",
+            "UniqueName": "Darkreach_1_ATOM_PASTE_3_ATOM_PASTE_1",
             "globalPosition": {
                 "x": -50.0,
                 "y": 1000.0,
@@ -397,25 +352,16 @@
             "savedLoadout": {
                 "Selected": [
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": ""
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx2"
                     }
                 ]
             },
@@ -428,9 +374,9 @@
             "startingSpeed": 158.6938934326172
         },
         {
-            "type": "Multirole1",
+            "type": "Darkreach",
             "faction": "Primeva",
-            "UniqueName": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_3",
+            "UniqueName": "Darkreach_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_1",
             "globalPosition": {
                 "x": 50.0,
                 "y": 1000.0,
@@ -460,25 +406,16 @@
             "savedLoadout": {
                 "Selected": [
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": ""
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx2"
                     }
                 ]
             },
@@ -491,9 +428,9 @@
             "startingSpeed": 158.6938934326172
         },
         {
-            "type": "Multirole1",
+            "type": "Darkreach",
             "faction": "Primeva",
-            "UniqueName": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_3",
+            "UniqueName": "Darkreach_1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_1",
             "globalPosition": {
                 "x": -50.0,
                 "y": 1000.0,
@@ -523,25 +460,16 @@
             "savedLoadout": {
                 "Selected": [
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": ""
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx2"
                     }
                 ]
             },
@@ -554,9 +482,9 @@
             "startingSpeed": 158.6938934326172
         },
         {
-            "type": "Multirole1",
+            "type": "Darkreach",
             "faction": "Primeva",
-            "UniqueName": "Multirole1_ATOM_PASTE_4",
+            "UniqueName": "Darkreach_ATOM_PASTE_4_ATOM_PASTE_1",
             "globalPosition": {
                 "x": 50.0,
                 "y": 1000.0,
@@ -586,25 +514,16 @@
             "savedLoadout": {
                 "Selected": [
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": ""
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx2"
                     }
                 ]
             },
@@ -617,9 +536,9 @@
             "startingSpeed": 158.6938934326172
         },
         {
-            "type": "Multirole1",
+            "type": "Darkreach",
             "faction": "Primeva",
-            "UniqueName": "Multirole1_1_ATOM_PASTE_4",
+            "UniqueName": "Darkreach_1_ATOM_PASTE_4_ATOM_PASTE_1",
             "globalPosition": {
                 "x": -50.0,
                 "y": 1000.0,
@@ -649,25 +568,16 @@
             "savedLoadout": {
                 "Selected": [
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": ""
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx2"
                     }
                 ]
             },
@@ -680,9 +590,9 @@
             "startingSpeed": 158.6938934326172
         },
         {
-            "type": "Multirole1",
+            "type": "Darkreach",
             "faction": "Primeva",
-            "UniqueName": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_4",
+            "UniqueName": "Darkreach_ATOM_PASTE_2_ATOM_PASTE_4_ATOM_PASTE_1",
             "globalPosition": {
                 "x": 50.0,
                 "y": 1000.0,
@@ -712,25 +622,16 @@
             "savedLoadout": {
                 "Selected": [
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": ""
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx2"
                     }
                 ]
             },
@@ -743,9 +644,9 @@
             "startingSpeed": 158.6938934326172
         },
         {
-            "type": "Multirole1",
+            "type": "Darkreach",
             "faction": "Primeva",
-            "UniqueName": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_4",
+            "UniqueName": "Darkreach_1_ATOM_PASTE_2_ATOM_PASTE_4_ATOM_PASTE_1",
             "globalPosition": {
                 "x": -50.0,
                 "y": 1000.0,
@@ -775,25 +676,16 @@
             "savedLoadout": {
                 "Selected": [
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": ""
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx2"
                     }
                 ]
             },
@@ -806,9 +698,9 @@
             "startingSpeed": 158.6938934326172
         },
         {
-            "type": "Multirole1",
+            "type": "Darkreach",
             "faction": "Primeva",
-            "UniqueName": "Multirole1_ATOM_PASTE_3_ATOM_PASTE_4",
+            "UniqueName": "Darkreach_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_1",
             "globalPosition": {
                 "x": 50.0,
                 "y": 1000.0,
@@ -838,25 +730,16 @@
             "savedLoadout": {
                 "Selected": [
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": ""
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx2"
                     }
                 ]
             },
@@ -869,9 +752,9 @@
             "startingSpeed": 158.6938934326172
         },
         {
-            "type": "Multirole1",
+            "type": "Darkreach",
             "faction": "Primeva",
-            "UniqueName": "Multirole1_1_ATOM_PASTE_3_ATOM_PASTE_4",
+            "UniqueName": "Darkreach_1_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_1",
             "globalPosition": {
                 "x": -50.0,
                 "y": 1000.0,
@@ -901,25 +784,16 @@
             "savedLoadout": {
                 "Selected": [
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": ""
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx2"
                     }
                 ]
             },
@@ -932,9 +806,9 @@
             "startingSpeed": 158.6938934326172
         },
         {
-            "type": "Multirole1",
+            "type": "Darkreach",
             "faction": "Primeva",
-            "UniqueName": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4",
+            "UniqueName": "Darkreach_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_1",
             "globalPosition": {
                 "x": 50.0,
                 "y": 1000.0,
@@ -964,25 +838,16 @@
             "savedLoadout": {
                 "Selected": [
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": ""
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx2"
                     }
                 ]
             },
@@ -995,9 +860,9 @@
             "startingSpeed": 158.6938934326172
         },
         {
-            "type": "Multirole1",
+            "type": "Darkreach",
             "faction": "Primeva",
-            "UniqueName": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4",
+            "UniqueName": "Darkreach_1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_1",
             "globalPosition": {
                 "x": -50.0,
                 "y": 1000.0,
@@ -1027,25 +892,16 @@
             "savedLoadout": {
                 "Selected": [
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": ""
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx2"
                     }
                 ]
             },
@@ -1058,9 +914,9 @@
             "startingSpeed": 158.6938934326172
         },
         {
-            "type": "Multirole1",
+            "type": "Darkreach",
             "faction": "Primeva",
-            "UniqueName": "Multirole1_ATOM_PASTE_5",
+            "UniqueName": "Darkreach_ATOM_PASTE_5_ATOM_PASTE_1",
             "globalPosition": {
                 "x": 50.0,
                 "y": 1000.0,
@@ -1090,25 +946,16 @@
             "savedLoadout": {
                 "Selected": [
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": ""
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx2"
                     }
                 ]
             },
@@ -1121,9 +968,9 @@
             "startingSpeed": 158.6938934326172
         },
         {
-            "type": "Multirole1",
+            "type": "Darkreach",
             "faction": "Primeva",
-            "UniqueName": "Multirole1_1_ATOM_PASTE_5",
+            "UniqueName": "Darkreach_1_ATOM_PASTE_5_ATOM_PASTE_1",
             "globalPosition": {
                 "x": -50.0,
                 "y": 1000.0,
@@ -1153,25 +1000,16 @@
             "savedLoadout": {
                 "Selected": [
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": ""
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx2"
                     }
                 ]
             },
@@ -1184,9 +1022,9 @@
             "startingSpeed": 158.6938934326172
         },
         {
-            "type": "Multirole1",
+            "type": "Darkreach",
             "faction": "Primeva",
-            "UniqueName": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_5",
+            "UniqueName": "Darkreach_ATOM_PASTE_2_ATOM_PASTE_5_ATOM_PASTE_1",
             "globalPosition": {
                 "x": 50.0,
                 "y": 1000.0,
@@ -1216,25 +1054,16 @@
             "savedLoadout": {
                 "Selected": [
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": ""
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx2"
                     }
                 ]
             },
@@ -1247,9 +1076,9 @@
             "startingSpeed": 158.6938934326172
         },
         {
-            "type": "Multirole1",
+            "type": "Darkreach",
             "faction": "Primeva",
-            "UniqueName": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_5",
+            "UniqueName": "Darkreach_1_ATOM_PASTE_2_ATOM_PASTE_5_ATOM_PASTE_1",
             "globalPosition": {
                 "x": -50.0,
                 "y": 1000.0,
@@ -1279,25 +1108,16 @@
             "savedLoadout": {
                 "Selected": [
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": ""
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx2"
                     }
                 ]
             },
@@ -1310,9 +1130,9 @@
             "startingSpeed": 158.6938934326172
         },
         {
-            "type": "Multirole1",
+            "type": "Darkreach",
             "faction": "Primeva",
-            "UniqueName": "Multirole1_ATOM_PASTE_3_ATOM_PASTE_5",
+            "UniqueName": "Darkreach_ATOM_PASTE_3_ATOM_PASTE_5_ATOM_PASTE_1",
             "globalPosition": {
                 "x": 50.0,
                 "y": 1000.0,
@@ -1342,25 +1162,16 @@
             "savedLoadout": {
                 "Selected": [
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": ""
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx2"
                     }
                 ]
             },
@@ -1373,9 +1184,9 @@
             "startingSpeed": 158.6938934326172
         },
         {
-            "type": "Multirole1",
+            "type": "Darkreach",
             "faction": "Primeva",
-            "UniqueName": "Multirole1_1_ATOM_PASTE_3_ATOM_PASTE_5",
+            "UniqueName": "Darkreach_1_ATOM_PASTE_3_ATOM_PASTE_5_ATOM_PASTE_1",
             "globalPosition": {
                 "x": -50.0,
                 "y": 1000.0,
@@ -1405,25 +1216,16 @@
             "savedLoadout": {
                 "Selected": [
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": ""
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx2"
                     }
                 ]
             },
@@ -1436,9 +1238,9 @@
             "startingSpeed": 158.6938934326172
         },
         {
-            "type": "Multirole1",
+            "type": "Darkreach",
             "faction": "Primeva",
-            "UniqueName": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_5",
+            "UniqueName": "Darkreach_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_5_ATOM_PASTE_1",
             "globalPosition": {
                 "x": 50.0,
                 "y": 1000.0,
@@ -1468,25 +1270,16 @@
             "savedLoadout": {
                 "Selected": [
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": ""
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx2"
                     }
                 ]
             },
@@ -1499,9 +1292,9 @@
             "startingSpeed": 158.6938934326172
         },
         {
-            "type": "Multirole1",
+            "type": "Darkreach",
             "faction": "Primeva",
-            "UniqueName": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_5",
+            "UniqueName": "Darkreach_1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_5_ATOM_PASTE_1",
             "globalPosition": {
                 "x": -50.0,
                 "y": 1000.0,
@@ -1531,25 +1324,16 @@
             "savedLoadout": {
                 "Selected": [
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": ""
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx2"
                     }
                 ]
             },
@@ -1562,9 +1346,9 @@
             "startingSpeed": 158.6938934326172
         },
         {
-            "type": "Multirole1",
+            "type": "Darkreach",
             "faction": "Primeva",
-            "UniqueName": "Multirole1_ATOM_PASTE_4_ATOM_PASTE_5",
+            "UniqueName": "Darkreach_ATOM_PASTE_4_ATOM_PASTE_5_ATOM_PASTE_1",
             "globalPosition": {
                 "x": 50.0,
                 "y": 1000.0,
@@ -1594,25 +1378,16 @@
             "savedLoadout": {
                 "Selected": [
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": ""
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx2"
                     }
                 ]
             },
@@ -1625,9 +1400,9 @@
             "startingSpeed": 158.6938934326172
         },
         {
-            "type": "Multirole1",
+            "type": "Darkreach",
             "faction": "Primeva",
-            "UniqueName": "Multirole1_1_ATOM_PASTE_4_ATOM_PASTE_5",
+            "UniqueName": "Darkreach_1_ATOM_PASTE_4_ATOM_PASTE_5_ATOM_PASTE_1",
             "globalPosition": {
                 "x": -50.0,
                 "y": 1000.0,
@@ -1657,25 +1432,16 @@
             "savedLoadout": {
                 "Selected": [
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": ""
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx2"
                     }
                 ]
             },
@@ -1688,9 +1454,9 @@
             "startingSpeed": 158.6938934326172
         },
         {
-            "type": "Multirole1",
+            "type": "Darkreach",
             "faction": "Primeva",
-            "UniqueName": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_4_ATOM_PASTE_5",
+            "UniqueName": "Darkreach_ATOM_PASTE_2_ATOM_PASTE_4_ATOM_PASTE_5_ATOM_PASTE_1",
             "globalPosition": {
                 "x": 50.0,
                 "y": 1000.0,
@@ -1720,25 +1486,16 @@
             "savedLoadout": {
                 "Selected": [
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": ""
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx2"
                     }
                 ]
             },
@@ -1751,9 +1508,9 @@
             "startingSpeed": 158.6938934326172
         },
         {
-            "type": "Multirole1",
+            "type": "Darkreach",
             "faction": "Primeva",
-            "UniqueName": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_4_ATOM_PASTE_5",
+            "UniqueName": "Darkreach_1_ATOM_PASTE_2_ATOM_PASTE_4_ATOM_PASTE_5_ATOM_PASTE_1",
             "globalPosition": {
                 "x": -50.0,
                 "y": 1000.0,
@@ -1783,25 +1540,16 @@
             "savedLoadout": {
                 "Selected": [
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": ""
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx2"
                     }
                 ]
             },
@@ -1814,9 +1562,9 @@
             "startingSpeed": 158.6938934326172
         },
         {
-            "type": "Multirole1",
+            "type": "Darkreach",
             "faction": "Primeva",
-            "UniqueName": "Multirole1_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5",
+            "UniqueName": "Darkreach_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5_ATOM_PASTE_1",
             "globalPosition": {
                 "x": 50.0,
                 "y": 1000.0,
@@ -1846,25 +1594,16 @@
             "savedLoadout": {
                 "Selected": [
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": ""
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx2"
                     }
                 ]
             },
@@ -1877,9 +1616,9 @@
             "startingSpeed": 158.6938934326172
         },
         {
-            "type": "Multirole1",
+            "type": "Darkreach",
             "faction": "Primeva",
-            "UniqueName": "Multirole1_1_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5",
+            "UniqueName": "Darkreach_1_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5_ATOM_PASTE_1",
             "globalPosition": {
                 "x": -50.0,
                 "y": 1000.0,
@@ -1909,25 +1648,16 @@
             "savedLoadout": {
                 "Selected": [
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": ""
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx2"
                     }
                 ]
             },
@@ -1940,9 +1670,9 @@
             "startingSpeed": 158.6938934326172
         },
         {
-            "type": "Multirole1",
+            "type": "Darkreach",
             "faction": "Primeva",
-            "UniqueName": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5",
+            "UniqueName": "Darkreach_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5_ATOM_PASTE_1",
             "globalPosition": {
                 "x": 50.0,
                 "y": 1000.0,
@@ -1972,25 +1702,16 @@
             "savedLoadout": {
                 "Selected": [
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": ""
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx2"
                     }
                 ]
             },
@@ -2003,9 +1724,9 @@
             "startingSpeed": 158.6938934326172
         },
         {
-            "type": "Multirole1",
+            "type": "Darkreach",
             "faction": "Primeva",
-            "UniqueName": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5",
+            "UniqueName": "Darkreach_1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5_ATOM_PASTE_1",
             "globalPosition": {
                 "x": -50.0,
                 "y": 1000.0,
@@ -2035,25 +1756,16 @@
             "savedLoadout": {
                 "Selected": [
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": ""
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx4_stack"
                     },
                     {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
-                    },
-                    {
-                        "Key": "AAM4_triple_internal"
+                        "Key": "AShM1_internalx2"
                     }
                 ]
             },
@@ -2162,11 +1874,11 @@
                 "TypeName": "None",
                 "Data": [],
                 "Outcomes": [
-                    "Start"
+                    "Start_ATOM_PASTE_1"
                 ]
             },
             {
-                "UniqueName": "WaitA",
+                "UniqueName": "WaitA_ATOM_PASTE_1",
                 "Faction": "",
                 "DisplayName": "",
                 "Hidden": false,
@@ -2184,12 +1896,12 @@
                     }
                 ],
                 "Outcomes": [
-                    "SpawnA",
-                    "StartA"
+                    "SpawnA_ATOM_PASTE_1",
+                    "StartA_ATOM_PASTE_1"
                 ]
             },
             {
-                "UniqueName": "DestroyA",
+                "UniqueName": "DestroyA_ATOM_PASTE_1",
                 "Faction": "",
                 "DisplayName": "",
                 "Hidden": false,
@@ -2204,32 +1916,14 @@
                             "y": 0.0,
                             "z": 0.0
                         }
-                    },
-                    {
-                        "StringValue": "Multirole1",
-                        "FloatValue": 0.0,
-                        "VectorValue": {
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 0.0
-                        }
-                    },
-                    {
-                        "StringValue": "Multirole1_1",
-                        "FloatValue": 0.0,
-                        "VectorValue": {
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 0.0
-                        }
                     }
                 ],
                 "Outcomes": [
-                    "WaitB"
+                    "WaitB_ATOM_PASTE_1"
                 ]
             },
             {
-                "UniqueName": "WaitB",
+                "UniqueName": "WaitB_ATOM_PASTE_1",
                 "Faction": "",
                 "DisplayName": "",
                 "Hidden": false,
@@ -2247,12 +1941,12 @@
                     }
                 ],
                 "Outcomes": [
-                    "SpawnB",
-                    "StartB"
+                    "SpawnB_ATOM_PASTE_1",
+                    "StartB_ATOM_PASTE_1"
                 ]
             },
             {
-                "UniqueName": "DestroyB",
+                "UniqueName": "DestroyB_ATOM_PASTE_1",
                 "Faction": "",
                 "DisplayName": "",
                 "Hidden": false,
@@ -2267,32 +1961,14 @@
                             "y": 0.0,
                             "z": 0.0
                         }
-                    },
-                    {
-                        "StringValue": "Multirole1_ATOM_PASTE_2",
-                        "FloatValue": 0.0,
-                        "VectorValue": {
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 0.0
-                        }
-                    },
-                    {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_2",
-                        "FloatValue": 0.0,
-                        "VectorValue": {
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 0.0
-                        }
                     }
                 ],
                 "Outcomes": [
-                    "WaitC"
+                    "WaitC_ATOM_PASTE_1"
                 ]
             },
             {
-                "UniqueName": "WaitC",
+                "UniqueName": "WaitC_ATOM_PASTE_1",
                 "Faction": "",
                 "DisplayName": "",
                 "Hidden": false,
@@ -2310,12 +1986,12 @@
                     }
                 ],
                 "Outcomes": [
-                    "SpawnC",
-                    "StartC"
+                    "SpawnC_ATOM_PASTE_1",
+                    "StartC_ATOM_PASTE_1"
                 ]
             },
             {
-                "UniqueName": "DestroyC",
+                "UniqueName": "DestroyC_ATOM_PASTE_1",
                 "Faction": "",
                 "DisplayName": "",
                 "Hidden": false,
@@ -2330,32 +2006,14 @@
                             "y": 0.0,
                             "z": 0.0
                         }
-                    },
-                    {
-                        "StringValue": "Multirole1_ATOM_PASTE_3",
-                        "FloatValue": 0.0,
-                        "VectorValue": {
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 0.0
-                        }
-                    },
-                    {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_3",
-                        "FloatValue": 0.0,
-                        "VectorValue": {
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 0.0
-                        }
                     }
                 ],
                 "Outcomes": [
-                    "WaitD"
+                    "WaitD_ATOM_PASTE_1"
                 ]
             },
             {
-                "UniqueName": "WaitD",
+                "UniqueName": "WaitD_ATOM_PASTE_1",
                 "Faction": "",
                 "DisplayName": "",
                 "Hidden": false,
@@ -2373,12 +2031,12 @@
                     }
                 ],
                 "Outcomes": [
-                    "SpawnD",
-                    "StartD"
+                    "SpawnD_ATOM_PASTE_1",
+                    "StartD_ATOM_PASTE_1"
                 ]
             },
             {
-                "UniqueName": "DestroyD",
+                "UniqueName": "DestroyD_ATOM_PASTE_1",
                 "Faction": "",
                 "DisplayName": "",
                 "Hidden": false,
@@ -2393,32 +2051,14 @@
                             "y": 0.0,
                             "z": 0.0
                         }
-                    },
-                    {
-                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_3",
-                        "FloatValue": 0.0,
-                        "VectorValue": {
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 0.0
-                        }
-                    },
-                    {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_3",
-                        "FloatValue": 0.0,
-                        "VectorValue": {
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 0.0
-                        }
                     }
                 ],
                 "Outcomes": [
-                    "WaitE"
+                    "WaitE_ATOM_PASTE_1"
                 ]
             },
             {
-                "UniqueName": "WaitE",
+                "UniqueName": "WaitE_ATOM_PASTE_1",
                 "Faction": "",
                 "DisplayName": "",
                 "Hidden": false,
@@ -2436,12 +2076,12 @@
                     }
                 ],
                 "Outcomes": [
-                    "SpawnE",
-                    "StartE"
+                    "SpawnE_ATOM_PASTE_1",
+                    "StartE_ATOM_PASTE_1"
                 ]
             },
             {
-                "UniqueName": "DestroyE",
+                "UniqueName": "DestroyE_ATOM_PASTE_1",
                 "Faction": "",
                 "DisplayName": "",
                 "Hidden": false,
@@ -2456,32 +2096,14 @@
                             "y": 0.0,
                             "z": 0.0
                         }
-                    },
-                    {
-                        "StringValue": "Multirole1_ATOM_PASTE_4",
-                        "FloatValue": 0.0,
-                        "VectorValue": {
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 0.0
-                        }
-                    },
-                    {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_4",
-                        "FloatValue": 0.0,
-                        "VectorValue": {
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 0.0
-                        }
                     }
                 ],
                 "Outcomes": [
-                    "WaitF"
+                    "WaitF_ATOM_PASTE_1"
                 ]
             },
             {
-                "UniqueName": "WaitF",
+                "UniqueName": "WaitF_ATOM_PASTE_1",
                 "Faction": "",
                 "DisplayName": "",
                 "Hidden": false,
@@ -2499,12 +2121,12 @@
                     }
                 ],
                 "Outcomes": [
-                    "SpawnF",
-                    "StartF"
+                    "SpawnF_ATOM_PASTE_1",
+                    "StartF_ATOM_PASTE_1"
                 ]
             },
             {
-                "UniqueName": "DestroyF",
+                "UniqueName": "DestroyF_ATOM_PASTE_1",
                 "Faction": "",
                 "DisplayName": "",
                 "Hidden": false,
@@ -2519,32 +2141,14 @@
                             "y": 0.0,
                             "z": 0.0
                         }
-                    },
-                    {
-                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_4",
-                        "FloatValue": 0.0,
-                        "VectorValue": {
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 0.0
-                        }
-                    },
-                    {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_4",
-                        "FloatValue": 0.0,
-                        "VectorValue": {
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 0.0
-                        }
                     }
                 ],
                 "Outcomes": [
-                    "WaitG"
+                    "WaitG_ATOM_PASTE_1"
                 ]
             },
             {
-                "UniqueName": "WaitG",
+                "UniqueName": "WaitG_ATOM_PASTE_1",
                 "Faction": "",
                 "DisplayName": "",
                 "Hidden": false,
@@ -2562,12 +2166,12 @@
                     }
                 ],
                 "Outcomes": [
-                    "SpawnG",
-                    "StartG"
+                    "SpawnG_ATOM_PASTE_1",
+                    "StartG_ATOM_PASTE_1"
                 ]
             },
             {
-                "UniqueName": "DestroyG",
+                "UniqueName": "DestroyG_ATOM_PASTE_1",
                 "Faction": "",
                 "DisplayName": "",
                 "Hidden": false,
@@ -2582,32 +2186,14 @@
                             "y": 0.0,
                             "z": 0.0
                         }
-                    },
-                    {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_3_ATOM_PASTE_4",
-                        "FloatValue": 0.0,
-                        "VectorValue": {
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 0.0
-                        }
-                    },
-                    {
-                        "StringValue": "Multirole1_ATOM_PASTE_3_ATOM_PASTE_4",
-                        "FloatValue": 0.0,
-                        "VectorValue": {
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 0.0
-                        }
                     }
                 ],
                 "Outcomes": [
-                    "WaitH"
+                    "WaitH_ATOM_PASTE_1"
                 ]
             },
             {
-                "UniqueName": "WaitH",
+                "UniqueName": "WaitH_ATOM_PASTE_1",
                 "Faction": "",
                 "DisplayName": "",
                 "Hidden": false,
@@ -2625,12 +2211,12 @@
                     }
                 ],
                 "Outcomes": [
-                    "SpawnH",
-                    "StartH"
+                    "SpawnH_ATOM_PASTE_1",
+                    "StartH_ATOM_PASTE_1"
                 ]
             },
             {
-                "UniqueName": "DestroyH",
+                "UniqueName": "DestroyH_ATOM_PASTE_1",
                 "Faction": "",
                 "DisplayName": "",
                 "Hidden": false,
@@ -2645,32 +2231,14 @@
                             "y": 0.0,
                             "z": 0.0
                         }
-                    },
-                    {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4",
-                        "FloatValue": 0.0,
-                        "VectorValue": {
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 0.0
-                        }
-                    },
-                    {
-                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4",
-                        "FloatValue": 0.0,
-                        "VectorValue": {
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 0.0
-                        }
                     }
                 ],
                 "Outcomes": [
-                    "WaitI"
+                    "WaitI_ATOM_PASTE_1"
                 ]
             },
             {
-                "UniqueName": "WaitI",
+                "UniqueName": "WaitI_ATOM_PASTE_1",
                 "Faction": "",
                 "DisplayName": "",
                 "Hidden": false,
@@ -2688,12 +2256,12 @@
                     }
                 ],
                 "Outcomes": [
-                    "SpawnA_ATOM_PASTE_5",
-                    "StartA_ATOM_PASTE_5"
+                    "SpawnA_ATOM_PASTE_5_ATOM_PASTE_1",
+                    "StartA_ATOM_PASTE_5_ATOM_PASTE_1"
                 ]
             },
             {
-                "UniqueName": "DestroyI",
+                "UniqueName": "DestroyI_ATOM_PASTE_1",
                 "Faction": "",
                 "DisplayName": "",
                 "Hidden": false,
@@ -2708,32 +2276,14 @@
                             "y": 0.0,
                             "z": 0.0
                         }
-                    },
-                    {
-                        "StringValue": "Multirole1_ATOM_PASTE_5",
-                        "FloatValue": 0.0,
-                        "VectorValue": {
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 0.0
-                        }
-                    },
-                    {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_5",
-                        "FloatValue": 0.0,
-                        "VectorValue": {
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 0.0
-                        }
                     }
                 ],
                 "Outcomes": [
-                    "WaitB_ATOM_PASTE_5"
+                    "WaitB_ATOM_PASTE_5_ATOM_PASTE_1"
                 ]
             },
             {
-                "UniqueName": "WaitJ",
+                "UniqueName": "WaitJ_ATOM_PASTE_1",
                 "Faction": "",
                 "DisplayName": "",
                 "Hidden": false,
@@ -2751,12 +2301,12 @@
                     }
                 ],
                 "Outcomes": [
-                    "SpawnB_ATOM_PASTE_5",
-                    "StartB_ATOM_PASTE_5"
+                    "SpawnB_ATOM_PASTE_5_ATOM_PASTE_1",
+                    "StartB_ATOM_PASTE_5_ATOM_PASTE_1"
                 ]
             },
             {
-                "UniqueName": "DestroyJ",
+                "UniqueName": "DestroyJ_ATOM_PASTE_1",
                 "Faction": "",
                 "DisplayName": "",
                 "Hidden": false,
@@ -2771,32 +2321,14 @@
                             "y": 0.0,
                             "z": 0.0
                         }
-                    },
-                    {
-                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_5",
-                        "FloatValue": 0.0,
-                        "VectorValue": {
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 0.0
-                        }
-                    },
-                    {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_5",
-                        "FloatValue": 0.0,
-                        "VectorValue": {
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 0.0
-                        }
                     }
                 ],
                 "Outcomes": [
-                    "WaitC_ATOM_PASTE_5"
+                    "WaitC_ATOM_PASTE_5_ATOM_PASTE_1"
                 ]
             },
             {
-                "UniqueName": "WaitK",
+                "UniqueName": "WaitK_ATOM_PASTE_1",
                 "Faction": "",
                 "DisplayName": "",
                 "Hidden": false,
@@ -2814,12 +2346,12 @@
                     }
                 ],
                 "Outcomes": [
-                    "SpawnC_ATOM_PASTE_5",
-                    "StartC_ATOM_PASTE_5"
+                    "SpawnC_ATOM_PASTE_5_ATOM_PASTE_1",
+                    "StartC_ATOM_PASTE_5_ATOM_PASTE_1"
                 ]
             },
             {
-                "UniqueName": "DestroyK",
+                "UniqueName": "DestroyK_ATOM_PASTE_1",
                 "Faction": "",
                 "DisplayName": "",
                 "Hidden": false,
@@ -2834,32 +2366,14 @@
                             "y": 0.0,
                             "z": 0.0
                         }
-                    },
-                    {
-                        "StringValue": "Multirole1_ATOM_PASTE_3_ATOM_PASTE_5",
-                        "FloatValue": 0.0,
-                        "VectorValue": {
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 0.0
-                        }
-                    },
-                    {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_3_ATOM_PASTE_5",
-                        "FloatValue": 0.0,
-                        "VectorValue": {
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 0.0
-                        }
                     }
                 ],
                 "Outcomes": [
-                    "WaitD_ATOM_PASTE_5"
+                    "WaitD_ATOM_PASTE_5_ATOM_PASTE_1"
                 ]
             },
             {
-                "UniqueName": "WaitL",
+                "UniqueName": "WaitL_ATOM_PASTE_1",
                 "Faction": "",
                 "DisplayName": "",
                 "Hidden": false,
@@ -2877,12 +2391,12 @@
                     }
                 ],
                 "Outcomes": [
-                    "SpawnD_ATOM_PASTE_5",
-                    "StartD_ATOM_PASTE_5"
+                    "SpawnD_ATOM_PASTE_5_ATOM_PASTE_1",
+                    "StartD_ATOM_PASTE_5_ATOM_PASTE_1"
                 ]
             },
             {
-                "UniqueName": "DestroyL",
+                "UniqueName": "DestroyL_ATOM_PASTE_1",
                 "Faction": "",
                 "DisplayName": "",
                 "Hidden": false,
@@ -2897,32 +2411,14 @@
                             "y": 0.0,
                             "z": 0.0
                         }
-                    },
-                    {
-                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_5",
-                        "FloatValue": 0.0,
-                        "VectorValue": {
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 0.0
-                        }
-                    },
-                    {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_5",
-                        "FloatValue": 0.0,
-                        "VectorValue": {
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 0.0
-                        }
                     }
                 ],
                 "Outcomes": [
-                    "WaitE_ATOM_PASTE_5"
+                    "WaitE_ATOM_PASTE_5_ATOM_PASTE_1"
                 ]
             },
             {
-                "UniqueName": "WaitM",
+                "UniqueName": "WaitM_ATOM_PASTE_1",
                 "Faction": "",
                 "DisplayName": "",
                 "Hidden": false,
@@ -2940,12 +2436,12 @@
                     }
                 ],
                 "Outcomes": [
-                    "SpawnE_ATOM_PASTE_5",
-                    "StartE_ATOM_PASTE_5"
+                    "SpawnE_ATOM_PASTE_5_ATOM_PASTE_1",
+                    "StartE_ATOM_PASTE_5_ATOM_PASTE_1"
                 ]
             },
             {
-                "UniqueName": "DestroyM",
+                "UniqueName": "DestroyM_ATOM_PASTE_1",
                 "Faction": "",
                 "DisplayName": "",
                 "Hidden": false,
@@ -2960,32 +2456,14 @@
                             "y": 0.0,
                             "z": 0.0
                         }
-                    },
-                    {
-                        "StringValue": "Multirole1_ATOM_PASTE_4_ATOM_PASTE_5",
-                        "FloatValue": 0.0,
-                        "VectorValue": {
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 0.0
-                        }
-                    },
-                    {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_4_ATOM_PASTE_5",
-                        "FloatValue": 0.0,
-                        "VectorValue": {
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 0.0
-                        }
                     }
                 ],
                 "Outcomes": [
-                    "WaitF_ATOM_PASTE_5"
+                    "WaitF_ATOM_PASTE_5_ATOM_PASTE_1"
                 ]
             },
             {
-                "UniqueName": "WaitN",
+                "UniqueName": "WaitN_ATOM_PASTE_1",
                 "Faction": "",
                 "DisplayName": "",
                 "Hidden": false,
@@ -3003,12 +2481,12 @@
                     }
                 ],
                 "Outcomes": [
-                    "SpawnF_ATOM_PASTE_5",
-                    "StartF_ATOM_PASTE_5"
+                    "SpawnF_ATOM_PASTE_5_ATOM_PASTE_1",
+                    "StartF_ATOM_PASTE_5_ATOM_PASTE_1"
                 ]
             },
             {
-                "UniqueName": "DestroyN",
+                "UniqueName": "DestroyN_ATOM_PASTE_1",
                 "Faction": "",
                 "DisplayName": "",
                 "Hidden": false,
@@ -3023,32 +2501,14 @@
                             "y": 0.0,
                             "z": 0.0
                         }
-                    },
-                    {
-                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_4_ATOM_PASTE_5",
-                        "FloatValue": 0.0,
-                        "VectorValue": {
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 0.0
-                        }
-                    },
-                    {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_4_ATOM_PASTE_5",
-                        "FloatValue": 0.0,
-                        "VectorValue": {
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 0.0
-                        }
                     }
                 ],
                 "Outcomes": [
-                    "WaitG_ATOM_PASTE_5"
+                    "WaitG_ATOM_PASTE_5_ATOM_PASTE_1"
                 ]
             },
             {
-                "UniqueName": "WaitO",
+                "UniqueName": "WaitO_ATOM_PASTE_1",
                 "Faction": "",
                 "DisplayName": "",
                 "Hidden": false,
@@ -3066,12 +2526,12 @@
                     }
                 ],
                 "Outcomes": [
-                    "SpawnG_ATOM_PASTE_5",
-                    "StartG_ATOM_PASTE_5"
+                    "SpawnG_ATOM_PASTE_5_ATOM_PASTE_1",
+                    "StartG_ATOM_PASTE_5_ATOM_PASTE_1"
                 ]
             },
             {
-                "UniqueName": "DestroyO",
+                "UniqueName": "DestroyO_ATOM_PASTE_1",
                 "Faction": "",
                 "DisplayName": "",
                 "Hidden": false,
@@ -3086,32 +2546,14 @@
                             "y": 0.0,
                             "z": 0.0
                         }
-                    },
-                    {
-                        "StringValue": "Multirole1_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5",
-                        "FloatValue": 0.0,
-                        "VectorValue": {
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 0.0
-                        }
-                    },
-                    {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5",
-                        "FloatValue": 0.0,
-                        "VectorValue": {
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 0.0
-                        }
                     }
                 ],
                 "Outcomes": [
-                    "WaitH_ATOM_PASTE_5"
+                    "WaitH_ATOM_PASTE_5_ATOM_PASTE_1"
                 ]
             },
             {
-                "UniqueName": "WaitP",
+                "UniqueName": "WaitP_ATOM_PASTE_1",
                 "Faction": "",
                 "DisplayName": "",
                 "Hidden": false,
@@ -3129,12 +2571,12 @@
                     }
                 ],
                 "Outcomes": [
-                    "SpawnH_ATOM_PASTE_5",
-                    "StartH_ATOM_PASTE_5"
+                    "SpawnH_ATOM_PASTE_5_ATOM_PASTE_1",
+                    "StartH_ATOM_PASTE_5_ATOM_PASTE_1"
                 ]
             },
             {
-                "UniqueName": "DestroyP",
+                "UniqueName": "DestroyP_ATOM_PASTE_1",
                 "Faction": "",
                 "DisplayName": "",
                 "Hidden": false,
@@ -3149,39 +2591,21 @@
                             "y": 0.0,
                             "z": 0.0
                         }
-                    },
-                    {
-                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5",
-                        "FloatValue": 0.0,
-                        "VectorValue": {
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 0.0
-                        }
-                    },
-                    {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5",
-                        "FloatValue": 0.0,
-                        "VectorValue": {
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 0.0
-                        }
                     }
                 ],
                 "Outcomes": [
-                    "WaitI_ATOM_PASTE_5"
+                    "WaitI_ATOM_PASTE_5_ATOM_PASTE_1"
                 ]
             }
         ],
         "Outcomes": [
             {
-                "UniqueName": "SpawnA",
+                "UniqueName": "SpawnA_ATOM_PASTE_1",
                 "Type": 5,
                 "TypeName": "SpawnUnit",
                 "Data": [
                     {
-                        "StringValue": "Multirole1",
+                        "StringValue": "Darkreach_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3190,7 +2614,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_1",
+                        "StringValue": "Darkreach_1_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3201,12 +2625,12 @@
                 ]
             },
             {
-                "UniqueName": "SpawnB",
+                "UniqueName": "SpawnB_ATOM_PASTE_1",
                 "Type": 5,
                 "TypeName": "SpawnUnit",
                 "Data": [
                     {
-                        "StringValue": "Multirole1_ATOM_PASTE_2",
+                        "StringValue": "Darkreach_ATOM_PASTE_2_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3215,7 +2639,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_2",
+                        "StringValue": "Darkreach_1_ATOM_PASTE_2_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3226,12 +2650,12 @@
                 ]
             },
             {
-                "UniqueName": "WaitB",
+                "UniqueName": "WaitB_ATOM_PASTE_1",
                 "Type": 1,
                 "TypeName": "StartObjective",
                 "Data": [
                     {
-                        "StringValue": "WaitB",
+                        "StringValue": "WaitB_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3242,12 +2666,12 @@
                 ]
             },
             {
-                "UniqueName": "empty_1",
+                "UniqueName": "empty_1_ATOM_PASTE_1",
                 "Type": 1,
                 "TypeName": "StartObjective",
                 "Data": [
                     {
-                        "StringValue": "DestroyA",
+                        "StringValue": "DestroyA_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3258,12 +2682,12 @@
                 ]
             },
             {
-                "UniqueName": "SpawnC",
+                "UniqueName": "SpawnC_ATOM_PASTE_1",
                 "Type": 5,
                 "TypeName": "SpawnUnit",
                 "Data": [
                     {
-                        "StringValue": "Multirole1_ATOM_PASTE_3",
+                        "StringValue": "Darkreach_ATOM_PASTE_3_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3272,7 +2696,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_3",
+                        "StringValue": "Darkreach_1_ATOM_PASTE_3_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3283,12 +2707,12 @@
                 ]
             },
             {
-                "UniqueName": "SpawnD",
+                "UniqueName": "SpawnD_ATOM_PASTE_1",
                 "Type": 5,
                 "TypeName": "SpawnUnit",
                 "Data": [
                     {
-                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_3",
+                        "StringValue": "Darkreach_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3297,7 +2721,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_3",
+                        "StringValue": "Darkreach_1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3308,12 +2732,12 @@
                 ]
             },
             {
-                "UniqueName": "WaitD",
+                "UniqueName": "WaitD_ATOM_PASTE_1",
                 "Type": 1,
                 "TypeName": "StartObjective",
                 "Data": [
                     {
-                        "StringValue": "WaitD",
+                        "StringValue": "WaitD_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3324,12 +2748,12 @@
                 ]
             },
             {
-                "UniqueName": "empty_1_ATOM_PASTE_3",
+                "UniqueName": "empty_1_ATOM_PASTE_3_ATOM_PASTE_1",
                 "Type": 1,
                 "TypeName": "StartObjective",
                 "Data": [
                     {
-                        "StringValue": "DestroyC",
+                        "StringValue": "DestroyC_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3340,12 +2764,12 @@
                 ]
             },
             {
-                "UniqueName": "Start",
+                "UniqueName": "Start_ATOM_PASTE_1",
                 "Type": 1,
                 "TypeName": "StartObjective",
                 "Data": [
                     {
-                        "StringValue": "WaitA",
+                        "StringValue": "WaitA_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3356,12 +2780,12 @@
                 ]
             },
             {
-                "UniqueName": "StartA",
+                "UniqueName": "StartA_ATOM_PASTE_1",
                 "Type": 1,
                 "TypeName": "StartObjective",
                 "Data": [
                     {
-                        "StringValue": "DestroyA",
+                        "StringValue": "DestroyA_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3372,12 +2796,12 @@
                 ]
             },
             {
-                "UniqueName": "WaitC",
+                "UniqueName": "WaitC_ATOM_PASTE_1",
                 "Type": 1,
                 "TypeName": "StartObjective",
                 "Data": [
                     {
-                        "StringValue": "WaitC",
+                        "StringValue": "WaitC_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3388,12 +2812,12 @@
                 ]
             },
             {
-                "UniqueName": "StartC",
+                "UniqueName": "StartC_ATOM_PASTE_1",
                 "Type": 1,
                 "TypeName": "StartObjective",
                 "Data": [
                     {
-                        "StringValue": "DestroyC",
+                        "StringValue": "DestroyC_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3404,12 +2828,12 @@
                 ]
             },
             {
-                "UniqueName": "StartB",
+                "UniqueName": "StartB_ATOM_PASTE_1",
                 "Type": 1,
                 "TypeName": "StartObjective",
                 "Data": [
                     {
-                        "StringValue": "DestroyB",
+                        "StringValue": "DestroyB_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3420,12 +2844,12 @@
                 ]
             },
             {
-                "UniqueName": "StartD",
+                "UniqueName": "StartD_ATOM_PASTE_1",
                 "Type": 1,
                 "TypeName": "StartObjective",
                 "Data": [
                     {
-                        "StringValue": "DestroyD",
+                        "StringValue": "DestroyD_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3436,12 +2860,12 @@
                 ]
             },
             {
-                "UniqueName": "WaitE",
+                "UniqueName": "WaitE_ATOM_PASTE_1",
                 "Type": 1,
                 "TypeName": "StartObjective",
                 "Data": [
                     {
-                        "StringValue": "WaitE",
+                        "StringValue": "WaitE_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3452,12 +2876,12 @@
                 ]
             },
             {
-                "UniqueName": "SpawnE",
+                "UniqueName": "SpawnE_ATOM_PASTE_1",
                 "Type": 5,
                 "TypeName": "SpawnUnit",
                 "Data": [
                     {
-                        "StringValue": "Multirole1_ATOM_PASTE_4",
+                        "StringValue": "Darkreach_ATOM_PASTE_4_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3466,7 +2890,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_4",
+                        "StringValue": "Darkreach_1_ATOM_PASTE_4_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3477,12 +2901,12 @@
                 ]
             },
             {
-                "UniqueName": "SpawnF",
+                "UniqueName": "SpawnF_ATOM_PASTE_1",
                 "Type": 5,
                 "TypeName": "SpawnUnit",
                 "Data": [
                     {
-                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_4",
+                        "StringValue": "Darkreach_ATOM_PASTE_2_ATOM_PASTE_4_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3491,7 +2915,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_4",
+                        "StringValue": "Darkreach_1_ATOM_PASTE_2_ATOM_PASTE_4_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3502,12 +2926,12 @@
                 ]
             },
             {
-                "UniqueName": "WaitF",
+                "UniqueName": "WaitF_ATOM_PASTE_1",
                 "Type": 1,
                 "TypeName": "StartObjective",
                 "Data": [
                     {
-                        "StringValue": "WaitF",
+                        "StringValue": "WaitF_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3518,12 +2942,12 @@
                 ]
             },
             {
-                "UniqueName": "empty_1_ATOM_PASTE_4",
+                "UniqueName": "empty_1_ATOM_PASTE_4_ATOM_PASTE_1",
                 "Type": 1,
                 "TypeName": "StartObjective",
                 "Data": [
                     {
-                        "StringValue": "DestroyE",
+                        "StringValue": "DestroyE_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3534,12 +2958,12 @@
                 ]
             },
             {
-                "UniqueName": "SpawnG",
+                "UniqueName": "SpawnG_ATOM_PASTE_1",
                 "Type": 5,
                 "TypeName": "SpawnUnit",
                 "Data": [
                     {
-                        "StringValue": "Multirole1_ATOM_PASTE_3_ATOM_PASTE_4",
+                        "StringValue": "Darkreach_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3548,7 +2972,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_3_ATOM_PASTE_4",
+                        "StringValue": "Darkreach_1_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3559,12 +2983,12 @@
                 ]
             },
             {
-                "UniqueName": "SpawnH",
+                "UniqueName": "SpawnH_ATOM_PASTE_1",
                 "Type": 5,
                 "TypeName": "SpawnUnit",
                 "Data": [
                     {
-                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4",
+                        "StringValue": "Darkreach_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3573,7 +2997,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4",
+                        "StringValue": "Darkreach_1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3584,12 +3008,12 @@
                 ]
             },
             {
-                "UniqueName": "WaitH",
+                "UniqueName": "WaitH_ATOM_PASTE_1",
                 "Type": 1,
                 "TypeName": "StartObjective",
                 "Data": [
                     {
-                        "StringValue": "WaitH",
+                        "StringValue": "WaitH_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3600,12 +3024,12 @@
                 ]
             },
             {
-                "UniqueName": "empty_1_ATOM_PASTE_3_ATOM_PASTE_4",
+                "UniqueName": "empty_1_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_1",
                 "Type": 1,
                 "TypeName": "StartObjective",
                 "Data": [
                     {
-                        "StringValue": "DestroyG",
+                        "StringValue": "DestroyG_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3616,12 +3040,12 @@
                 ]
             },
             {
-                "UniqueName": "Start_ATOM_PASTE_4",
+                "UniqueName": "Start_ATOM_PASTE_4_ATOM_PASTE_1",
                 "Type": 1,
                 "TypeName": "StartObjective",
                 "Data": [
                     {
-                        "StringValue": "WaitE",
+                        "StringValue": "WaitE_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3632,12 +3056,12 @@
                 ]
             },
             {
-                "UniqueName": "StartE",
+                "UniqueName": "StartE_ATOM_PASTE_1",
                 "Type": 1,
                 "TypeName": "StartObjective",
                 "Data": [
                     {
-                        "StringValue": "DestroyE",
+                        "StringValue": "DestroyE_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3648,12 +3072,12 @@
                 ]
             },
             {
-                "UniqueName": "WaitG",
+                "UniqueName": "WaitG_ATOM_PASTE_1",
                 "Type": 1,
                 "TypeName": "StartObjective",
                 "Data": [
                     {
-                        "StringValue": "WaitG",
+                        "StringValue": "WaitG_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3664,12 +3088,12 @@
                 ]
             },
             {
-                "UniqueName": "StartG",
+                "UniqueName": "StartG_ATOM_PASTE_1",
                 "Type": 1,
                 "TypeName": "StartObjective",
                 "Data": [
                     {
-                        "StringValue": "DestroyG",
+                        "StringValue": "DestroyG_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3680,12 +3104,12 @@
                 ]
             },
             {
-                "UniqueName": "StartF",
+                "UniqueName": "StartF_ATOM_PASTE_1",
                 "Type": 1,
                 "TypeName": "StartObjective",
                 "Data": [
                     {
-                        "StringValue": "DestroyF",
+                        "StringValue": "DestroyF_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3696,12 +3120,12 @@
                 ]
             },
             {
-                "UniqueName": "StartH",
+                "UniqueName": "StartH_ATOM_PASTE_1",
                 "Type": 1,
                 "TypeName": "StartObjective",
                 "Data": [
                     {
-                        "StringValue": "DestroyH",
+                        "StringValue": "DestroyH_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3712,12 +3136,12 @@
                 ]
             },
             {
-                "UniqueName": "WaitI",
+                "UniqueName": "WaitI_ATOM_PASTE_1",
                 "Type": 1,
                 "TypeName": "StartObjective",
                 "Data": [
                     {
-                        "StringValue": "WaitI",
+                        "StringValue": "WaitI_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3728,12 +3152,12 @@
                 ]
             },
             {
-                "UniqueName": "SpawnA_ATOM_PASTE_5",
+                "UniqueName": "SpawnA_ATOM_PASTE_5_ATOM_PASTE_1",
                 "Type": 5,
                 "TypeName": "SpawnUnit",
                 "Data": [
                     {
-                        "StringValue": "Multirole1_ATOM_PASTE_5",
+                        "StringValue": "Darkreach_ATOM_PASTE_5_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3742,7 +3166,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_5",
+                        "StringValue": "Darkreach_1_ATOM_PASTE_5_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3753,12 +3177,12 @@
                 ]
             },
             {
-                "UniqueName": "SpawnB_ATOM_PASTE_5",
+                "UniqueName": "SpawnB_ATOM_PASTE_5_ATOM_PASTE_1",
                 "Type": 5,
                 "TypeName": "SpawnUnit",
                 "Data": [
                     {
-                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_5",
+                        "StringValue": "Darkreach_ATOM_PASTE_2_ATOM_PASTE_5_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3767,7 +3191,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_5",
+                        "StringValue": "Darkreach_1_ATOM_PASTE_2_ATOM_PASTE_5_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3778,12 +3202,12 @@
                 ]
             },
             {
-                "UniqueName": "WaitB_ATOM_PASTE_5",
+                "UniqueName": "WaitB_ATOM_PASTE_5_ATOM_PASTE_1",
                 "Type": 1,
                 "TypeName": "StartObjective",
                 "Data": [
                     {
-                        "StringValue": "WaitJ",
+                        "StringValue": "WaitJ_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3794,12 +3218,12 @@
                 ]
             },
             {
-                "UniqueName": "empty_1_ATOM_PASTE_5",
+                "UniqueName": "empty_1_ATOM_PASTE_5_ATOM_PASTE_1",
                 "Type": 1,
                 "TypeName": "StartObjective",
                 "Data": [
                     {
-                        "StringValue": "DestroyI",
+                        "StringValue": "DestroyI_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3810,12 +3234,12 @@
                 ]
             },
             {
-                "UniqueName": "SpawnC_ATOM_PASTE_5",
+                "UniqueName": "SpawnC_ATOM_PASTE_5_ATOM_PASTE_1",
                 "Type": 5,
                 "TypeName": "SpawnUnit",
                 "Data": [
                     {
-                        "StringValue": "Multirole1_ATOM_PASTE_3_ATOM_PASTE_5",
+                        "StringValue": "Darkreach_ATOM_PASTE_3_ATOM_PASTE_5_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3824,7 +3248,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_3_ATOM_PASTE_5",
+                        "StringValue": "Darkreach_1_ATOM_PASTE_3_ATOM_PASTE_5_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3835,12 +3259,12 @@
                 ]
             },
             {
-                "UniqueName": "SpawnD_ATOM_PASTE_5",
+                "UniqueName": "SpawnD_ATOM_PASTE_5_ATOM_PASTE_1",
                 "Type": 5,
                 "TypeName": "SpawnUnit",
                 "Data": [
                     {
-                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_5",
+                        "StringValue": "Darkreach_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_5_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3849,7 +3273,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_5",
+                        "StringValue": "Darkreach_1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_5_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3860,12 +3284,12 @@
                 ]
             },
             {
-                "UniqueName": "WaitD_ATOM_PASTE_5",
+                "UniqueName": "WaitD_ATOM_PASTE_5_ATOM_PASTE_1",
                 "Type": 1,
                 "TypeName": "StartObjective",
                 "Data": [
                     {
-                        "StringValue": "WaitL",
+                        "StringValue": "WaitL_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3876,12 +3300,12 @@
                 ]
             },
             {
-                "UniqueName": "empty_1_ATOM_PASTE_3_ATOM_PASTE_5",
+                "UniqueName": "empty_1_ATOM_PASTE_3_ATOM_PASTE_5_ATOM_PASTE_1",
                 "Type": 1,
                 "TypeName": "StartObjective",
                 "Data": [
                     {
-                        "StringValue": "DestroyK",
+                        "StringValue": "DestroyK_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3892,12 +3316,12 @@
                 ]
             },
             {
-                "UniqueName": "Start_ATOM_PASTE_5",
+                "UniqueName": "Start_ATOM_PASTE_5_ATOM_PASTE_1",
                 "Type": 1,
                 "TypeName": "StartObjective",
                 "Data": [
                     {
-                        "StringValue": "WaitI",
+                        "StringValue": "WaitI_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3908,12 +3332,12 @@
                 ]
             },
             {
-                "UniqueName": "StartA_ATOM_PASTE_5",
+                "UniqueName": "StartA_ATOM_PASTE_5_ATOM_PASTE_1",
                 "Type": 1,
                 "TypeName": "StartObjective",
                 "Data": [
                     {
-                        "StringValue": "DestroyI",
+                        "StringValue": "DestroyI_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3924,12 +3348,12 @@
                 ]
             },
             {
-                "UniqueName": "WaitC_ATOM_PASTE_5",
+                "UniqueName": "WaitC_ATOM_PASTE_5_ATOM_PASTE_1",
                 "Type": 1,
                 "TypeName": "StartObjective",
                 "Data": [
                     {
-                        "StringValue": "WaitK",
+                        "StringValue": "WaitK_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3940,12 +3364,12 @@
                 ]
             },
             {
-                "UniqueName": "StartC_ATOM_PASTE_5",
+                "UniqueName": "StartC_ATOM_PASTE_5_ATOM_PASTE_1",
                 "Type": 1,
                 "TypeName": "StartObjective",
                 "Data": [
                     {
-                        "StringValue": "DestroyK",
+                        "StringValue": "DestroyK_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3956,12 +3380,12 @@
                 ]
             },
             {
-                "UniqueName": "StartB_ATOM_PASTE_5",
+                "UniqueName": "StartB_ATOM_PASTE_5_ATOM_PASTE_1",
                 "Type": 1,
                 "TypeName": "StartObjective",
                 "Data": [
                     {
-                        "StringValue": "DestroyJ",
+                        "StringValue": "DestroyJ_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3972,12 +3396,12 @@
                 ]
             },
             {
-                "UniqueName": "StartD_ATOM_PASTE_5",
+                "UniqueName": "StartD_ATOM_PASTE_5_ATOM_PASTE_1",
                 "Type": 1,
                 "TypeName": "StartObjective",
                 "Data": [
                     {
-                        "StringValue": "DestroyL",
+                        "StringValue": "DestroyL_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -3988,12 +3412,12 @@
                 ]
             },
             {
-                "UniqueName": "WaitE_ATOM_PASTE_5",
+                "UniqueName": "WaitE_ATOM_PASTE_5_ATOM_PASTE_1",
                 "Type": 1,
                 "TypeName": "StartObjective",
                 "Data": [
                     {
-                        "StringValue": "WaitM",
+                        "StringValue": "WaitM_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4004,12 +3428,12 @@
                 ]
             },
             {
-                "UniqueName": "SpawnE_ATOM_PASTE_5",
+                "UniqueName": "SpawnE_ATOM_PASTE_5_ATOM_PASTE_1",
                 "Type": 5,
                 "TypeName": "SpawnUnit",
                 "Data": [
                     {
-                        "StringValue": "Multirole1_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "StringValue": "Darkreach_ATOM_PASTE_4_ATOM_PASTE_5_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4018,7 +3442,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "StringValue": "Darkreach_1_ATOM_PASTE_4_ATOM_PASTE_5_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4029,12 +3453,12 @@
                 ]
             },
             {
-                "UniqueName": "SpawnF_ATOM_PASTE_5",
+                "UniqueName": "SpawnF_ATOM_PASTE_5_ATOM_PASTE_1",
                 "Type": 5,
                 "TypeName": "SpawnUnit",
                 "Data": [
                     {
-                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "StringValue": "Darkreach_ATOM_PASTE_2_ATOM_PASTE_4_ATOM_PASTE_5_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4043,7 +3467,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "StringValue": "Darkreach_1_ATOM_PASTE_2_ATOM_PASTE_4_ATOM_PASTE_5_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4054,12 +3478,12 @@
                 ]
             },
             {
-                "UniqueName": "WaitF_ATOM_PASTE_5",
+                "UniqueName": "WaitF_ATOM_PASTE_5_ATOM_PASTE_1",
                 "Type": 1,
                 "TypeName": "StartObjective",
                 "Data": [
                     {
-                        "StringValue": "WaitN",
+                        "StringValue": "WaitN_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4070,12 +3494,12 @@
                 ]
             },
             {
-                "UniqueName": "empty_1_ATOM_PASTE_4_ATOM_PASTE_5",
+                "UniqueName": "empty_1_ATOM_PASTE_4_ATOM_PASTE_5_ATOM_PASTE_1",
                 "Type": 1,
                 "TypeName": "StartObjective",
                 "Data": [
                     {
-                        "StringValue": "DestroyM",
+                        "StringValue": "DestroyM_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4086,12 +3510,12 @@
                 ]
             },
             {
-                "UniqueName": "SpawnG_ATOM_PASTE_5",
+                "UniqueName": "SpawnG_ATOM_PASTE_5_ATOM_PASTE_1",
                 "Type": 5,
                 "TypeName": "SpawnUnit",
                 "Data": [
                     {
-                        "StringValue": "Multirole1_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "StringValue": "Darkreach_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4100,7 +3524,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "StringValue": "Darkreach_1_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4111,12 +3535,12 @@
                 ]
             },
             {
-                "UniqueName": "SpawnH_ATOM_PASTE_5",
+                "UniqueName": "SpawnH_ATOM_PASTE_5_ATOM_PASTE_1",
                 "Type": 5,
                 "TypeName": "SpawnUnit",
                 "Data": [
                     {
-                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "StringValue": "Darkreach_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4125,7 +3549,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "StringValue": "Darkreach_1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4136,12 +3560,12 @@
                 ]
             },
             {
-                "UniqueName": "WaitH_ATOM_PASTE_5",
+                "UniqueName": "WaitH_ATOM_PASTE_5_ATOM_PASTE_1",
                 "Type": 1,
                 "TypeName": "StartObjective",
                 "Data": [
                     {
-                        "StringValue": "WaitP",
+                        "StringValue": "WaitP_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4152,12 +3576,12 @@
                 ]
             },
             {
-                "UniqueName": "empty_1_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5",
+                "UniqueName": "empty_1_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5_ATOM_PASTE_1",
                 "Type": 1,
                 "TypeName": "StartObjective",
                 "Data": [
                     {
-                        "StringValue": "DestroyO",
+                        "StringValue": "DestroyO_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4168,12 +3592,12 @@
                 ]
             },
             {
-                "UniqueName": "Start_ATOM_PASTE_4_ATOM_PASTE_5",
+                "UniqueName": "Start_ATOM_PASTE_4_ATOM_PASTE_5_ATOM_PASTE_1",
                 "Type": 1,
                 "TypeName": "StartObjective",
                 "Data": [
                     {
-                        "StringValue": "WaitM",
+                        "StringValue": "WaitM_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4184,12 +3608,12 @@
                 ]
             },
             {
-                "UniqueName": "StartE_ATOM_PASTE_5",
+                "UniqueName": "StartE_ATOM_PASTE_5_ATOM_PASTE_1",
                 "Type": 1,
                 "TypeName": "StartObjective",
                 "Data": [
                     {
-                        "StringValue": "DestroyM",
+                        "StringValue": "DestroyM_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4200,12 +3624,12 @@
                 ]
             },
             {
-                "UniqueName": "WaitG_ATOM_PASTE_5",
+                "UniqueName": "WaitG_ATOM_PASTE_5_ATOM_PASTE_1",
                 "Type": 1,
                 "TypeName": "StartObjective",
                 "Data": [
                     {
-                        "StringValue": "WaitO",
+                        "StringValue": "WaitO_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4216,12 +3640,12 @@
                 ]
             },
             {
-                "UniqueName": "StartG_ATOM_PASTE_5",
+                "UniqueName": "StartG_ATOM_PASTE_5_ATOM_PASTE_1",
                 "Type": 1,
                 "TypeName": "StartObjective",
                 "Data": [
                     {
-                        "StringValue": "DestroyO",
+                        "StringValue": "DestroyO_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4232,12 +3656,12 @@
                 ]
             },
             {
-                "UniqueName": "StartF_ATOM_PASTE_5",
+                "UniqueName": "StartF_ATOM_PASTE_5_ATOM_PASTE_1",
                 "Type": 1,
                 "TypeName": "StartObjective",
                 "Data": [
                     {
-                        "StringValue": "DestroyN",
+                        "StringValue": "DestroyN_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4248,12 +3672,12 @@
                 ]
             },
             {
-                "UniqueName": "StartH_ATOM_PASTE_5",
+                "UniqueName": "StartH_ATOM_PASTE_5_ATOM_PASTE_1",
                 "Type": 1,
                 "TypeName": "StartObjective",
                 "Data": [
                     {
-                        "StringValue": "DestroyP",
+                        "StringValue": "DestroyP_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4264,18 +3688,18 @@
                 ]
             },
             {
-                "UniqueName": "WaitI_ATOM_PASTE_5",
+                "UniqueName": "WaitI_ATOM_PASTE_5_ATOM_PASTE_1",
                 "Type": 1,
                 "TypeName": "StartObjective",
                 "Data": []
             },
             {
-                "UniqueName": "Endgame_KRARH_A",
+                "UniqueName": "Endgame_KRARH_A_ATOM_PASTE_1",
                 "Type": 5,
                 "TypeName": "SpawnUnit",
                 "Data": [
                     {
-                        "StringValue": "Multirole1",
+                        "StringValue": "Darkreach_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4284,7 +3708,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_1",
+                        "StringValue": "Darkreach_1_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4293,7 +3717,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_ATOM_PASTE_2",
+                        "StringValue": "Darkreach_ATOM_PASTE_2_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4302,7 +3726,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_2",
+                        "StringValue": "Darkreach_1_ATOM_PASTE_2_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4311,7 +3735,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_ATOM_PASTE_3",
+                        "StringValue": "Darkreach_ATOM_PASTE_3_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4320,7 +3744,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_3",
+                        "StringValue": "Darkreach_1_ATOM_PASTE_3_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4329,7 +3753,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_3",
+                        "StringValue": "Darkreach_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4338,7 +3762,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_3",
+                        "StringValue": "Darkreach_1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4347,7 +3771,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_ATOM_PASTE_4",
+                        "StringValue": "Darkreach_ATOM_PASTE_4_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4356,7 +3780,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_4",
+                        "StringValue": "Darkreach_1_ATOM_PASTE_4_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4365,7 +3789,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_4",
+                        "StringValue": "Darkreach_ATOM_PASTE_2_ATOM_PASTE_4_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4374,7 +3798,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_4",
+                        "StringValue": "Darkreach_1_ATOM_PASTE_2_ATOM_PASTE_4_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4383,7 +3807,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_ATOM_PASTE_3_ATOM_PASTE_4",
+                        "StringValue": "Darkreach_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4392,7 +3816,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_3_ATOM_PASTE_4",
+                        "StringValue": "Darkreach_1_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4401,7 +3825,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4",
+                        "StringValue": "Darkreach_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4410,7 +3834,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4",
+                        "StringValue": "Darkreach_1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4419,7 +3843,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_ATOM_PASTE_5",
+                        "StringValue": "Darkreach_ATOM_PASTE_5_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4428,7 +3852,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_5",
+                        "StringValue": "Darkreach_1_ATOM_PASTE_5_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4437,7 +3861,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_5",
+                        "StringValue": "Darkreach_ATOM_PASTE_2_ATOM_PASTE_5_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4446,7 +3870,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_5",
+                        "StringValue": "Darkreach_1_ATOM_PASTE_2_ATOM_PASTE_5_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4455,7 +3879,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_ATOM_PASTE_3_ATOM_PASTE_5",
+                        "StringValue": "Darkreach_ATOM_PASTE_3_ATOM_PASTE_5_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4464,7 +3888,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_3_ATOM_PASTE_5",
+                        "StringValue": "Darkreach_1_ATOM_PASTE_3_ATOM_PASTE_5_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4473,7 +3897,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_5",
+                        "StringValue": "Darkreach_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_5_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4482,7 +3906,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_5",
+                        "StringValue": "Darkreach_1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_5_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4491,7 +3915,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "StringValue": "Darkreach_ATOM_PASTE_4_ATOM_PASTE_5_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4500,7 +3924,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "StringValue": "Darkreach_1_ATOM_PASTE_4_ATOM_PASTE_5_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4509,7 +3933,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "StringValue": "Darkreach_ATOM_PASTE_2_ATOM_PASTE_4_ATOM_PASTE_5_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4518,7 +3942,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "StringValue": "Darkreach_1_ATOM_PASTE_2_ATOM_PASTE_4_ATOM_PASTE_5_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4527,7 +3951,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "StringValue": "Darkreach_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4536,7 +3960,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "StringValue": "Darkreach_1_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4545,7 +3969,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "StringValue": "Darkreach_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4554,7 +3978,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "StringValue": "Darkreach_1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4565,12 +3989,12 @@
                 ]
             },
             {
-                "UniqueName": "Endgame_KRARH_B",
+                "UniqueName": "Endgame_KRARH_B_ATOM_PASTE_1",
                 "Type": 6,
                 "TypeName": "RemoveUnit",
                 "Data": [
                     {
-                        "StringValue": "Multirole1",
+                        "StringValue": "Darkreach_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4579,7 +4003,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_1",
+                        "StringValue": "Darkreach_1_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4588,7 +4012,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_ATOM_PASTE_2",
+                        "StringValue": "Darkreach_ATOM_PASTE_2_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4597,7 +4021,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_2",
+                        "StringValue": "Darkreach_1_ATOM_PASTE_2_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4606,7 +4030,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_ATOM_PASTE_3",
+                        "StringValue": "Darkreach_ATOM_PASTE_3_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4615,7 +4039,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_3",
+                        "StringValue": "Darkreach_1_ATOM_PASTE_3_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4624,7 +4048,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_3",
+                        "StringValue": "Darkreach_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4633,7 +4057,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_3",
+                        "StringValue": "Darkreach_1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4642,7 +4066,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_ATOM_PASTE_4",
+                        "StringValue": "Darkreach_ATOM_PASTE_4_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4651,7 +4075,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_4",
+                        "StringValue": "Darkreach_1_ATOM_PASTE_4_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4660,7 +4084,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_4",
+                        "StringValue": "Darkreach_ATOM_PASTE_2_ATOM_PASTE_4_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4669,7 +4093,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_4",
+                        "StringValue": "Darkreach_1_ATOM_PASTE_2_ATOM_PASTE_4_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4678,7 +4102,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_ATOM_PASTE_3_ATOM_PASTE_4",
+                        "StringValue": "Darkreach_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4687,7 +4111,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_3_ATOM_PASTE_4",
+                        "StringValue": "Darkreach_1_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4696,7 +4120,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4",
+                        "StringValue": "Darkreach_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4705,7 +4129,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4",
+                        "StringValue": "Darkreach_1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4714,7 +4138,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_ATOM_PASTE_5",
+                        "StringValue": "Darkreach_ATOM_PASTE_5_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4723,7 +4147,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_5",
+                        "StringValue": "Darkreach_1_ATOM_PASTE_5_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4732,7 +4156,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_5",
+                        "StringValue": "Darkreach_ATOM_PASTE_2_ATOM_PASTE_5_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4741,7 +4165,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_5",
+                        "StringValue": "Darkreach_1_ATOM_PASTE_2_ATOM_PASTE_5_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4750,7 +4174,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_ATOM_PASTE_3_ATOM_PASTE_5",
+                        "StringValue": "Darkreach_ATOM_PASTE_3_ATOM_PASTE_5_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4759,7 +4183,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_3_ATOM_PASTE_5",
+                        "StringValue": "Darkreach_1_ATOM_PASTE_3_ATOM_PASTE_5_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4768,7 +4192,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_5",
+                        "StringValue": "Darkreach_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_5_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4777,7 +4201,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_5",
+                        "StringValue": "Darkreach_1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_5_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4786,7 +4210,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "StringValue": "Darkreach_ATOM_PASTE_4_ATOM_PASTE_5_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4795,7 +4219,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "StringValue": "Darkreach_1_ATOM_PASTE_4_ATOM_PASTE_5_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4804,7 +4228,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "StringValue": "Darkreach_ATOM_PASTE_2_ATOM_PASTE_4_ATOM_PASTE_5_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4813,7 +4237,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "StringValue": "Darkreach_1_ATOM_PASTE_2_ATOM_PASTE_4_ATOM_PASTE_5_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4822,7 +4246,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "StringValue": "Darkreach_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4831,7 +4255,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "StringValue": "Darkreach_1_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4840,7 +4264,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "StringValue": "Darkreach_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
@@ -4849,7 +4273,7 @@
                         }
                     },
                     {
-                        "StringValue": "Multirole1_1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5",
+                        "StringValue": "Darkreach_1_ATOM_PASTE_2_ATOM_PASTE_3_ATOM_PASTE_4_ATOM_PASTE_5_ATOM_PASTE_1",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,
