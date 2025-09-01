@@ -19,6 +19,7 @@ def open_mission_json(mission_name : str):
             data = json.load(file)
         return data
     except Exception as e:
+        print(e)
         print("OPEN MISSION JSON ERROR, EXITING")
         exit(0)
 
@@ -32,12 +33,14 @@ def create_backup(mission_name : str):
             backup.write(data)
             backup.close()
     except Exception as e:
+        print(e)
         print("MAKING BACKUP SCREWED UP")
 
 def dump_mission(data, mission_name):
     try:
         json.dump(data, open(f'{config.NUCLEAR_OPTION_MISSION_FOLDER_PATH}\\{mission_name}\\{mission_name}.json', 'w', encoding='UTF-8'), indent=4)
     except Exception as e:
+        print(e)
         print("DUMP MISSION ERROR")
 
 def get_objs_in_zone(obj_list, key : str, center : tuple[float, float, float], zone_radius_meters : float):
@@ -67,6 +70,7 @@ def remove_all_outside_zone(mission_name, zone_radius_meters : float, center : s
         for category in config.CATEGORIES_OF_OBJECTS_TO_MANIPULATE:
             data[category] = get_objs_in_zone(data, category, center_coords, zone_radius_meters)
     except Exception as e:
+        print(e)
         print("GETTING OBJECTS IN THE ZONE SCREWED UP")
         exit(0)
     return data
@@ -227,6 +231,7 @@ def create_blueprint(mission_name : str, blueprint_radius : float, center : str 
     try:
         blueprint_data = remove_all_outside_zone(data, blueprint_radius, origin)
     except Exception as e:
+        print(e)
         print("REMOVING ALL DID SOMETHING WRONG")
         exit(0)
     if final_blueprint_name == None:
@@ -288,5 +293,6 @@ print("Backup Created")
 try:
     parse_requests(config.MISSION_NAME)
 except Exception as e:
+    print(e)
     print("Something in parsing screwed up")
 print("Done :)")
