@@ -17,8 +17,7 @@ def json_format_coords(coords: tuple[float,float,float]) -> dict[str:float]:
             }
 
 def json_get_coords(obj, key : str | None = None) -> tuple[float,float,float]:
-
-    if key == None:
+    if key is None:
         if 'globalPosition' in obj:
             position = obj['globalPosition']
             return (position['x'], position['y'], position['z'])
@@ -37,6 +36,8 @@ def sub_coordinates(first_point : tuple[float,float,float], second_point : tuple
 
 def find_airbase_obj(data, airbase_name):
     for airbase in data['airbases']:
+        if airbase is None:
+            continue
         name = airbase['UniqueName']
         if name == airbase_name:
             return airbase
@@ -59,6 +60,8 @@ def get_paste_code(data):
                 if paste_code < int(last):
                     paste_code = int(last)
     for objective in data['objectives']['Objectives']:
+        if obj is None:
+            continue
         if not 'UniqueName' in obj:
             continue
         name : str = obj['UniqueName']

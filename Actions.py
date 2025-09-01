@@ -251,14 +251,9 @@ def parse_requests(mission_name : str):
             print("NOTHING IN CATEGORY.")
             continue
         for obj in data[cat]:
-            try:
-                if obj is None:
-                    print("OBJECT WAS NULL, SHOULD NOT HAPPEN")
-                    continue
-                if not 'UniqueName' in obj:
-                    continue
-            except:
-                print("Something went wrong, attempting to recover. Unexpected results may occur.")
+            if obj is None:
+                continue
+            if not 'UniqueName' in obj:
                 continue
             name = obj['UniqueName']
             if not name.startswith(config.ACTIVATION_KEYWORD):
