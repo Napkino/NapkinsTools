@@ -45,6 +45,8 @@ def find_airbase_obj(data, airbase_name):
 def get_paste_code(data):
     paste_code = 0
     for cat in config.CATEGORIES_OF_OBJECTS_TO_MANIPULATE:
+        if len(data[cat]) < 1:
+            continue
         for obj in data[cat]:
             if obj is None:
                 continue
