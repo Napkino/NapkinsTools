@@ -31,7 +31,7 @@ UNIT_ALIASES = {"Shard":"Corvette1"}
 # Then, you must put down the seperator, "_" this tells the program what is one thing and what is not.
 # Then, you must provide the operation you want to perform (e.g. paste)
 # After that, you have to provide the paramaters that the specific operation requires. (e.g. paste requires a preset name and paste center coordinates.)
-#NOTE: The paramaters for each operation can be found in the actions dictionary below.
+#NOTE: The paramaters for each operation can be found in the actions dictionary in the Actions.py file in this same directory.
 # Here is an example request. This request will paste an archangel class heli-carrier, onto a units position.
 # atomicBuild_paste_archangel_CURR|LOC
 #  ^keyword    ^op   ^preset name  ^paste center coords
