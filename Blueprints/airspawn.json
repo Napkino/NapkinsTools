@@ -1,0 +1,406 @@
+{
+    "JsonVersion": 4,
+    "WorkshopId": 0,
+    "MapKey": {
+        "Type": 1,
+        "TypeName": "GameWorldPrefab",
+        "Path": "Terrain1"
+    },
+    "missionSettings": {
+        "description": "",
+        "Tags": [],
+        "playerMode": 0,
+        "allowRespawn": true,
+        "playerStartingRank": 0,
+        "rankMultiplier": 1.0,
+        "successfulSortieBonus": 0.25,
+        "nuclearEscalationThreshold": 0.0,
+        "strategicEscalationThreshold": 0.0,
+        "minRankTacticalWarhead": 0,
+        "minRankStrategicWarhead": 0,
+        "cameraStartPosition": {
+            "IsOverride": false,
+            "Value": {
+                "Position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                }
+            }
+        },
+        "missionRoads": {
+            "roads": []
+        },
+        "wrecksMaxNumber": 0,
+        "wrecksDecayTime": 0.0
+    },
+    "environment": {
+        "timeOfDay": 10.0,
+        "timeFactor": 0.0,
+        "weatherIntensity": 0.0,
+        "cloudAltitude": 1800.0,
+        "windSpeed": 0.0,
+        "windTurbulence": 0.0,
+        "windHeading": 0.0,
+        "windRandomHeading": 0.0,
+        "moonPhase": 14.0
+    },
+    "aircraft": [],
+    "vehicles": [],
+    "ships": [],
+    "buildings": [
+        {
+            "type": "hangar_med",
+            "faction": "Boscali",
+            "UniqueName": "hangar_med",
+            "globalPosition": {
+                "x": 0.0,
+                "y": 15000.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 25.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "CustomAirbase",
+            "factoryOptions": {
+                "productionType": "",
+                "productionTime": 900.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "pillbox",
+            "faction": "Boscali",
+            "UniqueName": "pillbox",
+            "globalPosition": {
+                "x": -0.399993896484375,
+                "y": 14907.400390625,
+                "z": 26.5
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.3826834559440613,
+                "z": 0.0,
+                "w": 0.9238795042037964
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 2.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 200.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "",
+                "productionTime": 900.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "pillbox",
+            "faction": "Boscali",
+            "UniqueName": "pillbox_1",
+            "globalPosition": {
+                "x": 7.5095062255859375,
+                "y": 14907.4755859375,
+                "z": 27.382755279541016
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.3826834559440613,
+                "z": 0.0,
+                "w": 0.9238795042037964
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 2.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 200.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "",
+                "productionTime": 900.0
+            },
+            "placementOffset": 0.0
+        }
+    ],
+    "scenery": [
+        {
+            "type": "Platform_flat",
+            "faction": "",
+            "UniqueName": "Platform_flat",
+            "globalPosition": {
+                "x": 2.508544921875,
+                "y": 14889.3271484375,
+                "z": 71.11488342285156
+            },
+            "rotation": {
+                "x": 0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": ""
+        },
+        {
+            "type": "Platform_flat",
+            "faction": "",
+            "UniqueName": "Platform_flat_1",
+            "globalPosition": {
+                "x": 5.90625,
+                "y": 14886.021484375,
+                "z": 40.344329833984375
+            },
+            "rotation": {
+                "x": 0.5,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.8660253882408142
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": ""
+        },
+        {
+            "type": "Platform_flat",
+            "faction": "",
+            "UniqueName": "Platform_flat_2",
+            "globalPosition": {
+                "x": 0.0,
+                "y": 14500.0,
+                "z": -10.82168197631836
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": ""
+        },
+        {
+            "type": "Platform_flat",
+            "faction": "",
+            "UniqueName": "Platform_flat_4",
+            "globalPosition": {
+                "x": 1.7281494140625,
+                "y": 14500.734375,
+                "z": 55.78741455078125
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": ""
+        }
+    ],
+    "factions": [
+        {
+            "factionName": "Boscali",
+            "preventJoin": false,
+            "preventDonation": false,
+            "supplies": [
+                {
+                    "unitType": "COIN",
+                    "count": 1
+                }
+            ],
+            "startingBalance": 10000.0,
+            "playerJoinAllowance": 1225.0,
+            "playerTaxRate": 0.20000000298023224,
+            "regularIncome": 5.0,
+            "killReward": 1.0,
+            "startingWarheads": 0,
+            "reserveWarheads": 0,
+            "reserveAirframes": 0,
+            "extraReservesPerPlayer": 0,
+            "AIAircraftLimit": 6,
+            "reduceAIPerFriendlyPlayer": 1.0,
+            "addAIPerEnemyPlayer": 1.0,
+            "objectives": [],
+            "restrictions": {
+                "aircraft": [],
+                "weapons": []
+            },
+            "cameraStartPosition": {
+                "IsOverride": false,
+                "Value": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    }
+                }
+            }
+        },
+        {
+            "factionName": "Primeva",
+            "preventJoin": true,
+            "preventDonation": false,
+            "supplies": [
+                {
+                    "unitType": "COIN",
+                    "count": 1
+                }
+            ],
+            "startingBalance": 0.0,
+            "playerJoinAllowance": 20.0,
+            "playerTaxRate": 0.20000000298023224,
+            "regularIncome": 5.0,
+            "killReward": 1.0,
+            "startingWarheads": 0,
+            "reserveWarheads": 0,
+            "reserveAirframes": 0,
+            "extraReservesPerPlayer": 0,
+            "AIAircraftLimit": 6,
+            "reduceAIPerFriendlyPlayer": 1.0,
+            "addAIPerEnemyPlayer": 1.0,
+            "objectives": [],
+            "restrictions": {
+                "aircraft": [],
+                "weapons": []
+            },
+            "cameraStartPosition": {
+                "IsOverride": false,
+                "Value": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    }
+                }
+            }
+        }
+    ],
+    "airbases": [
+        {
+            "IsOverride": false,
+            "faction": "Boscali",
+            "UniqueName": "CustomAirbase",
+            "DisplayName": "CustomAirbase",
+            "Disabled": false,
+            "Capturable": true,
+            "CaptureDefense": 10.0,
+            "CaptureRange": 1000.0,
+            "Center": {
+                "x": 0.5,
+                "y": 15011.2998046875,
+                "z": 0.699999988079071
+            },
+            "SelectionPosition": {
+                "x": 0.5,
+                "y": 15011.2998046875,
+                "z": 0.699999988079071
+            },
+            "Tower": "",
+            "VerticalLandingPoints": [],
+            "ServicePoints": [],
+            "roads": {
+                "roads": []
+            },
+            "runways": []
+        }
+    ],
+    "unitInventories": [],
+    "objectives": {
+        "Objectives": [
+            {
+                "UniqueName": "Mission Start",
+                "Faction": "",
+                "DisplayName": "",
+                "Hidden": true,
+                "Type": 0,
+                "TypeName": "None",
+                "Data": [],
+                "Outcomes": []
+            }
+        ],
+        "Outcomes": []
+    },
+    "AtomicBuilderInfo": {
+        "origin": [
+            0.0,
+            15000.0,
+            0.0
+        ]
+    }
+}
