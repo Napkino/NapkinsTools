@@ -1,0 +1,606 @@
+{
+    "JsonVersion": 4,
+    "WorkshopId": 0,
+    "MapKey": {
+        "Type": 1,
+        "TypeName": "GameWorldPrefab",
+        "Path": "Terrain1"
+    },
+    "missionSettings": {
+        "description": "",
+        "Tags": [],
+        "playerMode": 0,
+        "allowRespawn": false,
+        "playerStartingRank": 0,
+        "rankMultiplier": 1.0,
+        "successfulSortieBonus": 0.25,
+        "nuclearEscalationThreshold": 0.0,
+        "strategicEscalationThreshold": 0.0,
+        "minRankTacticalWarhead": 0,
+        "minRankStrategicWarhead": 0,
+        "cameraStartPosition": {
+            "IsOverride": false,
+            "Value": {
+                "Position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                }
+            }
+        },
+        "missionRoads": {
+            "roads": []
+        },
+        "wrecksMaxNumber": 0,
+        "wrecksDecayTime": 0.0
+    },
+    "environment": {
+        "timeOfDay": 10.0,
+        "timeFactor": 0.0,
+        "weatherIntensity": 0.0,
+        "cloudAltitude": 1800.0,
+        "windSpeed": 0.0,
+        "windTurbulence": 0.0,
+        "windHeading": 0.0,
+        "windRandomHeading": 0.0,
+        "moonPhase": 14.0
+    },
+    "aircraft": [],
+    "vehicles": [],
+    "ships": [],
+    "buildings": [],
+    "scenery": [
+        {
+            "type": "coolingTower",
+            "faction": "",
+            "UniqueName": "CoolingTower",
+            "globalPosition": {
+                "x": 0.0,
+                "y": 1000.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": ""
+        },
+        {
+            "type": "coolingTower",
+            "faction": "",
+            "UniqueName": "CoolingTower_1",
+            "globalPosition": {
+                "x": 0.0,
+                "y": 1000.0,
+                "z": 10.0
+            },
+            "rotation": {
+                "x": 0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": ""
+        },
+        {
+            "type": "coolingTower",
+            "faction": "",
+            "UniqueName": "CoolingTower_2",
+            "globalPosition": {
+                "x": 0.0,
+                "y": 1000.0,
+                "z": 20.0
+            },
+            "rotation": {
+                "x": 0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": ""
+        },
+        {
+            "type": "coolingTower",
+            "faction": "",
+            "UniqueName": "CoolingTower_3",
+            "globalPosition": {
+                "x": 0.0,
+                "y": 1000.0,
+                "z": 30.0
+            },
+            "rotation": {
+                "x": 0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": ""
+        },
+        {
+            "type": "coolingTower",
+            "faction": "",
+            "UniqueName": "CoolingTower_4",
+            "globalPosition": {
+                "x": 0.0,
+                "y": 1000.0,
+                "z": 40.0
+            },
+            "rotation": {
+                "x": 0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": ""
+        },
+        {
+            "type": "pipeline1",
+            "faction": "",
+            "UniqueName": "Pipeline",
+            "globalPosition": {
+                "x": -40.0,
+                "y": 1000.0,
+                "z": 50.0
+            },
+            "rotation": {
+                "x": 0.030843563377857208,
+                "y": 0.030843563377857208,
+                "z": 0.7064337730407715,
+                "w": 0.7064337730407715
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": ""
+        },
+        {
+            "type": "pipeline1",
+            "faction": "",
+            "UniqueName": "Pipeline_1",
+            "globalPosition": {
+                "x": 40.0,
+                "y": 1000.0,
+                "z": 50.0
+            },
+            "rotation": {
+                "x": 0.030843663960695267,
+                "y": -0.030843663960695267,
+                "z": -0.7064337730407715,
+                "w": 0.7064337730407715
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": ""
+        },
+        {
+            "type": "Column1",
+            "faction": "",
+            "UniqueName": "Column1",
+            "globalPosition": {
+                "x": 0.0,
+                "y": 1025.0,
+                "z": 50.0
+            },
+            "rotation": {
+                "x": 0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": ""
+        },
+        {
+            "type": "Column1",
+            "faction": "",
+            "UniqueName": "Column1_1",
+            "globalPosition": {
+                "x": 0.0,
+                "y": 1025.0,
+                "z": 100.0
+            },
+            "rotation": {
+                "x": 0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": ""
+        },
+        {
+            "type": "Column1",
+            "faction": "",
+            "UniqueName": "Column1_2",
+            "globalPosition": {
+                "x": 0.0,
+                "y": 1020.7931518554688,
+                "z": 149.25823974609375
+            },
+            "rotation": {
+                "x": 0.7660444974899292,
+                "y": -5.387729817840636e-09,
+                "z": -5.387729817840636e-09,
+                "w": 0.6427876353263855
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": ""
+        },
+        {
+            "type": "Column1",
+            "faction": "",
+            "UniqueName": "Column1_3",
+            "globalPosition": {
+                "x": 0.0,
+                "y": 1016.0,
+                "z": 198.0
+            },
+            "rotation": {
+                "x": 0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": ""
+        },
+        {
+            "type": "Cone3",
+            "faction": "",
+            "UniqueName": "Cone3",
+            "globalPosition": {
+                "x": 0.9000000953674316,
+                "y": 1000.0,
+                "z": 130.0
+            },
+            "rotation": {
+                "x": 0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": ""
+        },
+        {
+            "type": "Cone3",
+            "faction": "",
+            "UniqueName": "Cone3_1",
+            "globalPosition": {
+                "x": 0.0,
+                "y": 1000.0,
+                "z": 160.0
+            },
+            "rotation": {
+                "x": 0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": ""
+        },
+        {
+            "type": "Cylinder2",
+            "faction": "",
+            "UniqueName": "Cylinder2",
+            "globalPosition": {
+                "x": 0.0,
+                "y": 1000.0,
+                "z": 210.0
+            },
+            "rotation": {
+                "x": 0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": ""
+        },
+        {
+            "type": "Cylinder2",
+            "faction": "",
+            "UniqueName": "Cylinder2_1",
+            "globalPosition": {
+                "x": 0.0,
+                "y": 1000.0,
+                "z": 260.0
+            },
+            "rotation": {
+                "x": 0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": ""
+        },
+        {
+            "type": "Column1",
+            "faction": "",
+            "UniqueName": "Column1_4",
+            "globalPosition": {
+                "x": 0.0,
+                "y": 1016.0,
+                "z": 248.0
+            },
+            "rotation": {
+                "x": 0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": ""
+        },
+        {
+            "type": "pipeline1",
+            "faction": "",
+            "UniqueName": "Pipeline_2",
+            "globalPosition": {
+                "x": 0.0,
+                "y": 960.0,
+                "z": 50.0
+            },
+            "rotation": {
+                "x": 1.90666393784511e-09,
+                "y": 0.04361938685178757,
+                "z": 0.9990482330322266,
+                "w": -4.3669786009559175e-08
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": ""
+        }
+    ],
+    "factions": [
+        {
+            "factionName": "Boscali",
+            "preventJoin": false,
+            "preventDonation": false,
+            "supplies": [],
+            "startingBalance": 0.0,
+            "playerJoinAllowance": 20.0,
+            "playerTaxRate": 0.20000000298023224,
+            "regularIncome": 5.0,
+            "killReward": 1.0,
+            "startingWarheads": 0,
+            "reserveWarheads": 0,
+            "reserveAirframes": 0,
+            "extraReservesPerPlayer": 1,
+            "AIAircraftLimit": 6,
+            "reduceAIPerFriendlyPlayer": 1.0,
+            "addAIPerEnemyPlayer": 1.0,
+            "objectives": [],
+            "restrictions": {
+                "aircraft": [],
+                "weapons": []
+            },
+            "cameraStartPosition": {
+                "IsOverride": false,
+                "Value": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    }
+                }
+            }
+        },
+        {
+            "factionName": "Primeva",
+            "preventJoin": false,
+            "preventDonation": false,
+            "supplies": [],
+            "startingBalance": 0.0,
+            "playerJoinAllowance": 20.0,
+            "playerTaxRate": 0.20000000298023224,
+            "regularIncome": 5.0,
+            "killReward": 1.0,
+            "startingWarheads": 0,
+            "reserveWarheads": 0,
+            "reserveAirframes": 0,
+            "extraReservesPerPlayer": 1,
+            "AIAircraftLimit": 6,
+            "reduceAIPerFriendlyPlayer": 1.0,
+            "addAIPerEnemyPlayer": 1.0,
+            "objectives": [],
+            "restrictions": {
+                "aircraft": [],
+                "weapons": []
+            },
+            "cameraStartPosition": {
+                "IsOverride": false,
+                "Value": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    }
+                }
+            }
+        }
+    ],
+    "airbases": [],
+    "unitInventories": [],
+    "objectives": {
+        "Objectives": [
+            {
+                "UniqueName": "Mission Start",
+                "Faction": "",
+                "DisplayName": "",
+                "Hidden": true,
+                "Type": 0,
+                "TypeName": "None",
+                "Data": [],
+                "Outcomes": []
+            }
+        ],
+        "Outcomes": []
+    },
+    "AtomicBuilderInfo": {
+        "origin": [
+            0.0,
+            1000.0,
+            -45.0
+        ]
+    }
+}
