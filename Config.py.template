@@ -11,10 +11,10 @@ LOCAL_LOW_APPDATA_PATH += "Low" # NO TOUCH
 NUCLEAR_OPTION_MISSION_FOLDER_PATH = f"{LOCAL_LOW_APPDATA_PATH}\\Shockfront\\NuclearOption\\Missions"
 
 # The name of the mission you want to edit
-MISSION_NAME = "ATFOP-Archangel"
+MISSION_NAME = "Escalation"
 
 # You can include any combination of ONLY the following, NOTHING ELSE: 'vehicles' 'ships' 'airbases' 'buildings' 'aircraft'
-CATEGORIES_OF_OBJECTS_TO_MANIPULATE = ('vehicles', 'ships', 'airbases', 'buildings', 'aircraft') # you really shouldnt need to touch this
+CATEGORIES_OF_OBJECTS_TO_MANIPULATE = ('vehicles', 'ships', 'airbases', 'buildings', 'aircraft', 'scenery') # you really shouldnt need to touch this
 
 # The prefix you must use for the objects you want to use to interact with these scripts. You can change this and it will be accounted for.
 ACTIVATION_KEYWORD = "atomicBuild"
