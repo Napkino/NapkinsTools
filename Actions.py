@@ -15,7 +15,8 @@ DEFAULT_ATOMIC_BUILDER_INFO = {'origin':(0,0,0)}
 
 def open_mission_json(mission_name : str):
     try:
-        with open(f'{config.NUCLEAR_OPTION_MISSION_FOLDER_PATH}\\{mission_name}\\{mission_name}.json') as file:
+        path = f'{config.NUCLEAR_OPTION_MISSION_FOLDER_PATH}\\{mission_name}\\{mission_name}.json'
+        with open(path, encoding='UTF-8') as file:
             data = json.load(file)
         return data
     except Exception as e:
@@ -26,7 +27,8 @@ def open_mission_json(mission_name : str):
 def create_backup(mission_name : str):
     try:
         os.makedirs('backups', exist_ok=True)
-        with open(f'{config.NUCLEAR_OPTION_MISSION_FOLDER_PATH}\\{mission_name}\\{mission_name}.json', 'r', encoding='UTF-8') as file:
+        path = f'{config.NUCLEAR_OPTION_MISSION_FOLDER_PATH}\\{mission_name}\\{mission_name}.json'
+        with open(path, 'r', encoding='UTF-8') as file:
             data = file.read()
             file.close()
         with open(f'backups\\{mission_name}.json', 'w', encoding='UTF-8') as backup:
@@ -34,11 +36,12 @@ def create_backup(mission_name : str):
             backup.close()
     except Exception as e:
         print(e)
-        print("MAKING BACKUP SCREWED UP")
+        print("MAKING BACKUP SCREWED UP, EXITING TO ENSURE DATA SAFETY.")
+        exit(0)
 
 def dump_mission(data, mission_name):
     try:
-        json.dump(data, open(f'{config.NUCLEAR_OPTION_MISSION_FOLDER_PATH}\\{mission_name}\\{mission_name}.json', 'w', encoding='UTF-8'), indent=4)
+        json.dump(data, open(f'{config.NUCLEAR_OPTION_MISSION_FOLDER_PATH}\{mission_name}\{mission_name}.json', 'w', encoding='UTF-8'), indent=4)
     except Exception as e:
         print(e)
         print("DUMP MISSION ERROR")
@@ -247,8 +250,12 @@ def create_blueprint(mission_name : str, blueprint_radius : float, center : str 
 def parse_requests(mission_name : str):
     data = open_mission_json(mission_name)
     for cat in config.CATEGORIES_OF_OBJECTS_TO_MANIPULATE:
-        if data[cat] == None:
-            print("NOTHING IN CATEGORY.")
+        try:
+            if data[cat] == None:
+                print("NOTHING IN CATEGORY.")
+                continue
+        except Exception as e:
+            print("Category doesnt exist at all.")
             continue
         for obj in data[cat]:
             if obj is None:
