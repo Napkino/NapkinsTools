@@ -186,7 +186,10 @@ def group_into_outcome(mission_name : str, group_radius : float, center : tuple[
         if not 'UniqueName' in obj:
             continue
         # put units into standard NO outcome data format
-        outcome_data.append({"StringValue": obj['UniqueName'], "FloatValue": 0.0, "VectorValue": {"x": 0.0,"y": 0.0,"z": 0.0}})
+        print("NAME:", obj['UniqueName'])
+        data_to_append = {"StringValue": obj['UniqueName'], "FloatValue": 0.0, "VectorValue": {"x": 0.0,"y": 0.0,"z": 0.0}}
+        print("Appended Data:", data_to_append)
+        outcome_data.append(data_to_append)
     outcome = {"UniqueName":f"ATOMIC_BUILDER_OutcomeGroup_{paste_code}", "Type":5, "TypeName": "SpawnUnit", "Data": outcome_data}
     os.makedirs('Outputs', exist_ok=True)
     json.dump(outcome, open(f'Outputs\\OUTCOME_CENTER_{center}.json','w',encoding='UTF-8'),indent=4) # dumps it for them to copy
