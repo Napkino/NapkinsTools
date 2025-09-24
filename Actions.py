@@ -96,7 +96,7 @@ def change_objects_origin(obj_list, origin : tuple[float, float, float], key : s
 def assign_paste_codes(data, paste_code : int | None = None):
     # we keep track of what paste codes we've assigned so far to this file, and we just count up from there.
     if paste_code is None:
-        paste_code = random.randint(100,10000)
+        paste_code = random.randint(100,10000)# we uh, REALLY dont want to pick one that MIGHT already be picked, or things get pertty bad.
     suffix = f"_ATOM_PASTE_{paste_code}"
 
     for cat in config.CATEGORIES_OF_OBJECTS_TO_MANIPULATE:
@@ -108,7 +108,18 @@ def assign_paste_codes(data, paste_code : int | None = None):
 
     # now we have to modify specific objectives to have different names. this gets messy.
     for objective in data['objectives']['Objectives']:
+
+        for objective_data in outcome['Data']:
+            if objective_data["StringValue"].startswith("Boscali"):
+                continue
+            elif objective_data["StringValue"].startswith("Primeva"):
+                continue
+            elif objective_data["StringValue"] == "":
+                continue
+            objective_data["StringValue"] += suffix
+
         outcomes = list()
+
         for outcome in objective['Outcomes']:
             outcome += suffix
             outcomes.append(outcome)
@@ -121,15 +132,15 @@ def assign_paste_codes(data, paste_code : int | None = None):
     for outcome in data['objectives']['Outcomes']:
         outcome['UniqueName'] += suffix
         for outcome_data in outcome['Data']:
-            if outcome_data['StringValue'].startswith("Boscali"):
+            if outcome_data["StringValue"].startswith("Boscali"):
                 continue
-            elif outcome_data['StringValue'].startswith("Primeva"):
+            elif outcome_data["StringValue"].startswith("Primeva"):
                 continue
-            elif outcome_data['StringValue'] == "":
+            elif outcome_data["StringValue"] == "":
                 continue
-            outcome_data['StringValue'] += suffix
-    return data
+            outcome_data["StringValue"] += suffix
 
+    return data
 
 def paste_blueprint(mission_name : str, blueprint_name : str, paste_center_coords : tuple[float, float, float]):
     data = get_blueprint_data(blueprint_name)
@@ -138,7 +149,6 @@ def paste_blueprint(mission_name : str, blueprint_name : str, paste_center_coord
     for cat in config.CATEGORIES_OF_OBJECTS_TO_MANIPULATE:
         objs = change_objects_origin(data, origin, cat)
         blueprint[cat] = objs
-    
 
     data = open_mission_json(mission_name)
     if not 'AtomicBuilderInfo' in data: # if we dont have our info in the mission file, then we chuck the default in.
