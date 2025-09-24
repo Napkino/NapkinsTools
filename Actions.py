@@ -41,7 +41,7 @@ def create_backup(mission_name : str):
 
 def dump_mission(data, mission_name):
     try:
-        json.dump(data, open(f'{config.NUCLEAR_OPTION_MISSION_FOLDER_PATH}\{mission_name}\{mission_name}.json', 'w', encoding='UTF-8'), indent=4)
+        json.dump(data, open(f'{config.NUCLEAR_OPTION_MISSION_FOLDER_PATH}\\{mission_name}\\{mission_name}.json', 'w', encoding='UTF-8'), indent=4)
     except Exception as e:
         print(e)
         print("DUMP MISSION ERROR")
