@@ -109,7 +109,7 @@ def assign_paste_codes(data, paste_code : int | None = None):
     # now we have to modify specific objectives to have different names. this gets messy.
     for objective in data['objectives']['Objectives']:
 
-        for objective_data in outcome['Data']:
+        for objective_data in objective['Data']:
             if objective_data["StringValue"].startswith("Boscali"):
                 continue
             elif objective_data["StringValue"].startswith("Primeva"):
